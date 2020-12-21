@@ -13,3 +13,9 @@ function gotoFacebook() {
 
 	goTab('https://www.facebook.com/tramelldev');
 }
+
+function winStoreOpen() {
+
+	var win = window.open('https://alectramell.github.io/winstorw.hta');
+	win.focus();
+}
