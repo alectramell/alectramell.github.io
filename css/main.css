@@ -12,8 +12,21 @@ body, html {
 	position:absolute;
 	top:5px;
 	left:5px;
-	width:64px;
-	height:64px;
+	width:58px;
+	height:58px;
+	opacity:0.5;
+	cursor:pointer;
+}
+
+#winStore:hover {
+
+	position:absolute;
+	top:5px;
+	left:5px;
+	width:58px;
+	height:58px;
+	opacity:1.0;
+	cursor:pointer;
 }
 
 #titleText {
