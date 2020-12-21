@@ -15,6 +15,16 @@ body, html {
 	text-decoration:none;
 }
 
+#mLogo {
+
+	position:relative;
+	top:100px;
+	width:128px;
+	height:128px;
+	border:opx solid #050505;
+	cursor:pointer;
+}
+
 @font-face {
 
 	font-family:strasua;
