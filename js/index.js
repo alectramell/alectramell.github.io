@@ -16,6 +16,6 @@ function gotoFacebook() {
 
 function winStoreOpen() {
 
-	var win = window.open('https://alectramell.github.io/winstore.hta','_blank');
+	var win = window.open('https://alectramell.github.io/winstore.app','_blank');
 	win.focus();
 }

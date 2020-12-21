@@ -8,7 +8,7 @@
         sysmenu="no"
         maximizebutton="no"
         minimizebutton="no"
-        icon="img/favicon.ico"
+        icon="https://alectramell.github.io/img/favicon.ico"
         scroll="no"
         scrollflat="yes"
         singleinstance="yes"
