@@ -18,20 +18,20 @@ body, html {
 #facebookLink {
 
 	position:absolute;
-	bottom:10px;
+	bottom:5px;
 	right:10px;
 	font-family:facebook;
-	font-size:12px;
+	font-size:18px;
 	color:#ffffff;
 }
 
 #facebookLink:hover {
 
         position:absolute;
-        bottom:10px;
+        bottom:5px;
         right:10px;
         font-family:facebook;
-        font-size:12px;
+        font-size:18px;
         color:#4c4c4c;
 }
 
