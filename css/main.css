@@ -4,4 +4,13 @@ body, html {
 	background-size:cover;
 	overflow:hidden;
 	cursor:pointer;
+	color:#ffffff;
+}
+
+#titleText {
+
+	position:relative;
+	font-family:arial;
+	font-size:18px;
+	text-decoration:none;
 }
