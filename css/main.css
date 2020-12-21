@@ -10,7 +10,19 @@ body, html {
 #titleText {
 
 	position:relative;
-	font-family:arial;
+	font-family:strasua;
 	font-size:18px;
 	text-decoration:none;
+}
+
+@font-face {
+
+	font-family:strasua;
+	src:url(../fonts/strasua.ttf);
+}
+
+@font-face {
+
+	font-family:facebook;
+	src:url(../fonts/facebook.otf);
 }
