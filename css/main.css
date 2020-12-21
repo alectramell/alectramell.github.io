@@ -18,9 +18,9 @@ body, html {
 #mLogo {
 
 	position:relative;
-	top:100px;
-	width:128px;
-	height:128px;
+	top:50px;
+	width:64px;
+	height:64px;
 	border:opx solid #050505;
 	cursor:pointer;
 }
