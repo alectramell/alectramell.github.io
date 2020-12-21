@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+<?php
+	$XTITLE = 'Tramell Software Development (r)';
+?>
 <html>
 <head>
 <title>
-Tramell Software Development (r)
+<?php echo $XTITLE; ?>
 </title>
 </head>
 <body bgcolor="#050505"
@@ -11,7 +13,7 @@ link="#050505"
 alink="#050505"
 vlink="#050505">
 
-Tramell Software Development (r)
+We are working on our site, check back soon!
 
 </body>
 </html>
