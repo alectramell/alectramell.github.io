@@ -104,6 +104,18 @@ body, html {
 	content:url(https://alectramell.github.io/img/macosHOVER.png);
 }
 
+#macStore:active {
+
+	position:absolute;
+	top:7px;
+	left:75px;
+	width:57px;
+	height:57px;
+	opacity:1.0;
+	cursor:pointer;
+	content:url(https://alectramell.github.io/img/macos.png);
+}
+
 #winStore {
 
 	position:absolute;
@@ -126,6 +138,18 @@ body, html {
 	opacity:1.0;
 	cursor:pointer;
 	content:url(https://alectramell.github.io/img/windowsHOVER.png);
+}
+
+#winStore:active {
+
+	position:absolute;
+	top:5px;
+	left:5px;
+	width:58px;
+	height:58px;
+	opacity:1.0;
+	cursor:pointer;
+	content:url(https://alectramell.github.io/img/windows.png);
 }
 
 #titleText {
