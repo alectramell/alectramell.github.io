@@ -7,20 +7,18 @@ body, html {
 	color:#ffffff;
 }
 
-#laserBall {
+#cbanner {
 
 	position:fixed;
-	top:-30%;
-	left:-30%;
-	width:1500px;
-	height:1000px;
+	top:30%;
+	left:21%;
+	width:530px;
 	opacity:0.0;
-	z-index:-1;
 
 	animation-name:fadeIn;
-	animation-delay:500ms;
-	animation-duration:1500ms;
-	animation-iteration-count:1;
+	animation-delay:1500ms;
+	animation-duration:2500ms;
+	animation-teration-count:1;
 	animation-fill-mode:forwards;
 }
 
@@ -30,28 +28,8 @@ body, html {
 		opacity:0.0;
 	}
 
-	5% {
-		opacity:0.1;
-	}
-
-	10% {
-		opacity:0.0;
-	}
-
-	30% {
-		opacity:0.1;
-	}
-
-	50% {
-		opacity:0.0;
-	}
-
-	80% {
-		opacity:0.1;
-	}
-
 	100% {
-		opacity:0.0;
+		opacity:1.0;
 	}
 }
 
