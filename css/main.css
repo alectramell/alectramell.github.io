@@ -39,6 +39,16 @@ body, html {
 	cursor:auto;
 }
 
+#mainTitle {
+
+	position:relative;
+	font-family:segoe;
+	font-size:22px;
+	color:#ffffff;
+	opacity:1.0;
+	cursor:auto;
+}
+
 #windowsTitle {
 
 	position:relative;
