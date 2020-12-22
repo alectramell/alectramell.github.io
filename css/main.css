@@ -14,7 +14,7 @@ body, html {
 	right:10px;
 	width:56px;
 	height:56px;
-	opacity:1.0;
+	opacity:0.5;
 	cursor:pointer;
 }
 
@@ -25,7 +25,7 @@ body, html {
 	right:10px;
 	width:56px;
 	height:56px;
-	opacity:0.9;
+	opacity:1.0;
 	cursor:pointer;
 }
 
@@ -67,7 +67,7 @@ body, html {
 	left:5px;
 	width:58px;
 	height:58px;
-	opacity:0.9;
+	opacity:1.0;
 	cursor:pointer;
 }
 
