@@ -7,6 +7,28 @@ body, html {
 	color:#ffffff;
 }
 
+#homeButton {
+
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:58px;
+	height:59px;
+	opacity:1.0;
+	cursor:pointer;
+}
+
+#homeButton:hover {
+
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:58px;
+	height:59px;
+	opacity:0.9;
+	cursor:pointer;
+}
+
 #appsForText {
 
 	position:relative;

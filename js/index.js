@@ -23,3 +23,8 @@ function winStoreOpen() {
 
 	parent.location = 'https://alectramell.github.io/winstore.html';
 }
+
+function goHome() {
+
+	parent.location = 'https://alectramell.github.io/index.html';
+}
