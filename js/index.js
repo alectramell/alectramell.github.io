@@ -3,6 +3,11 @@ function reLoad(xvar) {
 	setTimeout(function(){location.reload();}, xvar);
 }
 
+function offSwitch() {
+
+	alert('This Function is Temporarily Disabled.');
+}
+
 function goTab(url) {
 
 	var win = window.open(url, '_blank');
