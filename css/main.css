@@ -16,6 +16,7 @@ body, html {
 	height:56px;
 	opacity:0.5;
 	cursor:pointer;
+	content:url(https://alectramell.github.io/img/home.png);
 }
 
 #homeButton:hover {
@@ -27,6 +28,7 @@ body, html {
 	height:56px;
 	opacity:1.0;
 	cursor:pointer;
+	content:url(https://alectramell.github.io/img/homeHOVER.png);
 }
 
 #appsForText {
