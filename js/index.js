@@ -24,6 +24,11 @@ function winStoreOpen() {
 	parent.location = 'https://alectramell.github.io/winstore.html';
 }
 
+function macStoreOpen() {
+
+	parent.location = 'https://alectramell.github.io/macstore.html';
+}
+
 function goHome() {
 
 	parent.location = 'https://alectramell.github.io/index.html';
