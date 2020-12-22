@@ -3,8 +3,28 @@ body, html {
 	background:url(../img/bg.png), #000000;
 	background-size:cover;
 	overflow:hidden;
-	cursor:arrow;
+	cursor:auto;
 	color:#ffffff;
+}
+
+#appsForText {
+
+	position:relative;
+	font-family:segoe;
+	font-size:16px;
+	color:#ffffff;
+	opacity:0.5;
+	cursor:auto;
+}
+
+#windowsTitle {
+
+	position:relative;
+	font-family:segoe;
+	font-size:26px;
+	color:#ffffff;
+	opacity:1.0;
+	cursor:auto;
 }
 
 #winStore {
@@ -60,6 +80,12 @@ body, html {
         font-size:28px;
         color:#3b5998;
 	cursor:pointer;
+}
+
+@font-face {
+
+	font-family:segoe;
+	src:url(../fonts/segoe.ttf);
 }
 
 @font-face {
