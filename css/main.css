@@ -89,7 +89,7 @@ body, html {
 	height:57px;
 	opacity:1.0;
 	cursor:pointer;
-	content:url(https://alectramell.github.io/img/macos.png);
+	content:url(https://alectramell.github.io/img/macosMAIN.png);
 }
 
 #macStore:hover {
@@ -113,7 +113,7 @@ body, html {
 	height:57px;
 	opacity:1.0;
 	cursor:pointer;
-	content:url(https://alectramell.github.io/img/macosMAIN.png);
+	content:url(https://alectramell.github.io/img/macos.png);
 }
 
 #winStore {
@@ -125,7 +125,7 @@ body, html {
 	height:58px;
 	opacity:1.0;
 	cursor:pointer;
-	content:url(https://alectramell.github.io/img/windows.png);
+	content:url(https://alectramell.github.io/img/windowsMAIN.png);
 }
 
 #winStore:hover {
@@ -149,7 +149,7 @@ body, html {
 	height:58px;
 	opacity:1.0;
 	cursor:pointer;
-	content:url(https://alectramell.github.io/img/windowsMAIN.png);
+	content:url(https://alectramell.github.io/img/windows.png);
 }
 
 #titleText {
