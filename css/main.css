@@ -73,12 +73,24 @@ body, html {
 
 	position:absolute;
 	top:7px;
-	left:80px;
-	width:58px;
-	height:58px;
+	left:75px;
+	width:57px;
+	height:57px;
 	opacity:1.0;
 	cursor:pointer;
 	content:url(https://alectramell.github.io/img/macos.png);
+}
+
+#macStore:hover {
+
+	position:absolute;
+	top:7px;
+	left:75px;
+	width:57px;
+	height:57px;
+	opacity:1.0;
+	cursor:pointer;
+	content:url(https://alectramell.github.io/img/macosHOVER.png);
 }
 
 #winStore {
