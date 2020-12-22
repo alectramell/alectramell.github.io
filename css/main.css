@@ -10,8 +10,8 @@ body, html {
 #homeButton {
 
 	position:absolute;
-	top:5px;
-	right:5px;
+	top:7px;
+	right:10px;
 	width:56px;
 	height:56px;
 	opacity:1.0;
@@ -21,8 +21,8 @@ body, html {
 #homeButton:hover {
 
 	position:absolute;
-	top:5px;
-	right:5px;
+	top:7px;
+	right:10px;
 	width:56px;
 	height:56px;
 	opacity:0.9;
