@@ -7,6 +7,15 @@ body, html {
 	color:#ffffff;
 }
 
+#mainVideo {
+
+	position:fixed;
+	top:95px;
+	left:12%;
+	border:5px solid #000000;
+	border-radius:10px;
+}
+
 #homeButton {
 
 	position:absolute;
@@ -137,7 +146,7 @@ body, html {
 	left:12px;
 	font-family:facebook;
 	font-size:28px;
-	color:#c4c4c4;
+	color:#ffffff;
 	cursor:auto;
 }
 
