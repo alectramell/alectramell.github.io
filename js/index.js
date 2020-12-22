@@ -21,6 +21,5 @@ function gotoFacebook() {
 
 function winStoreOpen() {
 
-	var win = window.open('https://alectramell.github.io/winstore.hta','_blank');
-	win.focus();
+	parent.location = 'https://alectramell.github.io/winstore.html';
 }
