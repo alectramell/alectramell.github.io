@@ -1,4 +1,4 @@
-body, html {
+.home, html {
 
 	background:url(../img/bg.png), #000000;
 	background-size:cover;
@@ -7,7 +7,7 @@ body, html {
 	color:#ffffff;
 }
 
-.macos, body, html {
+.macos, html {
 
 	background:url(../img/bgBlank.png), #000000;
 	background-size:cover;
@@ -16,7 +16,7 @@ body, html {
 	color:#ffffff;
 }
 
-.winos, body, html {
+.winos, html {
 
 	background:url(../img/bgBlank.png), #000000;
 	background-size:cover;
