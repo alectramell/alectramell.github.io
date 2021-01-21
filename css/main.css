@@ -211,7 +211,23 @@
 	right:10px;
 	font-family:Verdana;
 	font-size:14px;
+	font-weight:bold;
 	color:#ffffff;
+	opacity:0.5;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#phoneLink:hover {
+
+	position:absolute;
+	bottom:5px;
+	right:10px;
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	opacity:1.0;
 	text-decoration:none;
 	cursor:pointer;
 }
