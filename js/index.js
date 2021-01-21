@@ -37,5 +37,5 @@ function goHome() {
 function offNote() {
 
 	setTimeout(function(){alert('This Page is Temporarily Not Available.')}, 3200);
-	setTimeout(function(){goHome()}, 5000);
+	setTimeout(function(){goHome()}, 1000);
 }
