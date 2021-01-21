@@ -7,6 +7,24 @@ body, html {
 	color:#ffffff;
 }
 
+.macos, body, html {
+
+	background:url(../img/bgBlank.png), #000000;
+	background-size:cover;
+	overflow:hidden;
+	cursor:auto;
+	color:#ffffff;
+}
+
+.winos, body, html {
+
+	background:url(../img/bgBlank.png), #000000;
+	background-size:cover;
+	overflow:hidden;
+	cursor:auto;
+	color:#ffffff;
+}
+
 #cbanner {
 
 	position:fixed;
