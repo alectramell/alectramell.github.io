@@ -34,8 +34,8 @@ function goHome() {
 	parent.location = 'https://alectramell.github.io/';
 }
 
-function offNote() {
+function offNote(xvar) {
 
-	setTimeout(function(){alert('This Page is Temporarily Not Available.')}, 3200);
+	setTimeout(function(){alert('This Page is Temporarily Not Available.')}, xvar);
 	setTimeout(function(){goHome()}, 1000);
 }
