@@ -38,7 +38,7 @@
 
 	animation-name:lightShow;
 	animation-delay:1000ms;
-	animation-duration:1500ms;
+	animation-duration:2000ms;
 	animation-iteration-count:1;
 	animation-fill-mode:forwards;
 }
@@ -76,7 +76,7 @@
 	}
 
 	50% {
-		opacity:0.3;
+		opacity:0.2;
 	}
 
 	100% {
