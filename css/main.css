@@ -204,6 +204,18 @@
 	cursor:arrow;
 }
 
+#phoneLink {
+
+	position:absolute;
+	bottom:5px;
+	right:10px;
+	font-family:Verdana;
+	font-size:14px;
+	font-color:#ffffff;
+	text-decoration:none;
+	cursor:pointer;
+}
+
 #facebookLink {
 
 	position:absolute;
