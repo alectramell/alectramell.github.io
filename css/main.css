@@ -34,7 +34,7 @@
 	height:100%;
 	size:cover;
 	opacity:0.0;
-	z-index:1;
+	z-index:-1;
 
 	animation-name:lightShow;
 	animation-delay:1500ms;
@@ -73,10 +73,11 @@
 
 	0% {
 		opacity:0.0;
+		z-index:1;
 	}
 
 	50% {
-		opacity:0.2;
+		opacity:0.3;
 	}
 
 	100% {
