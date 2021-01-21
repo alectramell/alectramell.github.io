@@ -34,10 +34,11 @@
 	height:100%;
 	size:cover;
 	opacity:0.0;
+	z-index:1;
 
 	animation-name:lightShow;
 	animation-delay:1000ms;
-	animation-duration:3000ms;
+	animation-duration:2500ms;
 	animation-iteration-count:1;
 	animation-fill-mode:forwards;
 }
@@ -71,13 +72,7 @@
 @keyframes lightShow {
 
 	0% {
-		opacity:0.0;
-		z-index:1;
-	}
-
-	50% {
 		opacity:0.5;
-		z-index:1;
 	}
 
 	100% {
