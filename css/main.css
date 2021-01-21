@@ -69,7 +69,6 @@
 	height:56px;
 	opacity:0.5;
 	cursor:pointer;
-	content:url(https://alectramell.github.io/img/home.png);
 }
 
 #homeButton:hover {
@@ -133,7 +132,6 @@
 	height:57px;
 	opacity:1.0;
 	cursor:pointer;
-	content:url(https://alectramell.github.io/img/macosMAIN.png);
 }
 
 #macStore:hover {
@@ -169,7 +167,6 @@
 	height:58px;
 	opacity:1.0;
 	cursor:pointer;
-	content:url(https://alectramell.github.io/img/windowsMAIN.png);
 }
 
 #winStore:hover {
