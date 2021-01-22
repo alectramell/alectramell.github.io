@@ -235,16 +235,64 @@
 	cursor:arrow;
 }
 
+#emailLinkcontact {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:none;
+	color:#ffffff;
+	opacity:0.8;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#emailLinkcontact:hover {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:none;
+	color:#ffffff;
+	opacity:1.0;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#phoneLinkcontact {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:none;
+	color:#ffffff;
+	opacity:0.8;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#phoneLinkcontact:hover {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:none;
+	color:#ffffff;
+	opacity:1.0;
+	text-decoration:none;
+	cursor:pointer;
+}
+
 #phoneLink {
 
 	position:absolute;
 	bottom:5px;
 	right:10px;
 	font-family:Verdana;
-	font-size:14px;
-	font-weight:bold;
+	font-size:24px;
+	font-weight:none;
 	color:#ffffff;
-	opacity:0.5;
+	opacity:0.6;
 	text-decoration:none;
 	cursor:pointer;
 }
@@ -255,8 +303,8 @@
 	bottom:5px;
 	right:10px;
 	font-family:Verdana;
-	font-size:14px;
-	font-weight:bold;
+	font-size:24px;
+	font-weight:none;
 	color:#ffffff;
 	opacity:1.0;
 	text-decoration:none;
