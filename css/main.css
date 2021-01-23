@@ -58,6 +58,46 @@
 	animation-fill-mode:forwards;
 }
 
+#upcomingText {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:18px;
+	color:#ffffff;
+	opacity:1.0;
+	text-decoration:normal;
+}
+
+#udemyText {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:18px;
+	color:#ffffff;
+	opacity:1.0;
+	text-decoration:normal;
+}
+
+#udemyLink {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:18px;
+	color:#ff3860;
+	opacity:1.0;
+	text-decoration:normal;
+}
+
+#udemyLink:hover {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:18px;
+	color:#ff0032;
+	opacity:1.0;
+	text-decoration:normal;
+}
+
 
 #boxIntro {
 
@@ -213,13 +253,23 @@
 }
 
 
+#udemyMINI {
+
+	position:relative;
+	top:17px;
+	width:48px;
+	height:48px;
+	opacity:1.0;
+	cursor:pointer;
+}
+
 #udemyStore {
 
 	position:absolute;
-	top:1px;
-	left:145px;
-	width:64px;
-	height:64px;
+	top:3px;
+	left:143px;
+	width:59px;
+	height:59px;
 	opacity:1.0;
 	cursor:pointer;
 }
@@ -227,10 +277,10 @@
 #udemyStore:hover {
 
 	position:absolute;
-	top:1px;
-	left:145px;
-	width:64px;
-	height:64px;
+	top:2px;
+	left:143px;
+	width:60px;
+	height:60px;
 	opacity:1.0;
 	cursor:pointer;
 	content:url(https://alectramell.github.io/img/udemyHOVER.png);
