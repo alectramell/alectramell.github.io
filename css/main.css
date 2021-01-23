@@ -212,6 +212,30 @@
 	cursor:auto;
 }
 
+
+#udemyStore {
+
+	position:absolute;
+	top:1px;
+	left:145px;
+	width:64px;
+	height:64px;
+	opacity:1.0;
+	cursor:pointer;
+}
+
+#udemyStore:hover {
+
+	position:absolute;
+	top:1px;
+	left:145px;
+	width:64px;
+	height:64px;
+	opacity:1.0;
+	cursor:pointer;
+	content:url(https://alectramell.github.io/img/udemyHOVER.png);
+}
+
 #macStore {
 
 	position:absolute;
