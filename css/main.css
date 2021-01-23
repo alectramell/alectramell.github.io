@@ -58,6 +58,16 @@
 	animation-fill-mode:forwards;
 }
 
+#upcomingIntroText {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:24px;
+	color:#ffffff;
+	opacity:1.0;
+	text-decoration:none;
+}
+
 #upcomingText {
 
 	position:relative;
@@ -103,9 +113,9 @@
 
 	position:relative;
 	font-family:Verdana;
-	font-size:18px;
+	font-size:16px;
 	color:#ffffff;
-	opacity:0.5;
+	opacity:0.6;
 	text-decoration:normal;
 }
 
