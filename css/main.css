@@ -59,6 +59,16 @@
 }
 
 
+#boxIntro {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:18px;
+	color:#ffffff;
+	opacity:0.5;
+	text-decoration:normal;
+}
+
 #boxText {
 
 	position:relative;
