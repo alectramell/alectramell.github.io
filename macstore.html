@@ -8,7 +8,7 @@ Tramell Software Development (r)
 <link type="text/css" rel="stylesheet" href="css/main.css">
 <script type="text/javascript" src="js/index.js"></script>
 </head>
-<body onload='offNote();'>
+<body>
 
 <img id="winStore" src="img/windowsMAIN.png" title="Projects for Windows" onclick="winStoreOpen();">
 <img id="macStore" src="img/macos.png" title="Projects for MacOS" onclick="macStoreOpen();">
@@ -17,17 +17,27 @@ Tramell Software Development (r)
 <img id="homeButton" src="img/homeMAIN.png" onclick="goHome();">
 
 <center>
-<font id="appsForText" align="abs_middle">projects for</font>
+<font id="appsForText" align="abs_middle">Projects for</font>
 </center>
 <center>
 <font id="macTitle" align="abs_middle"><b>Mac OS</b></font>
 </center>
 
 <center>
-<font id="titleText" onclick="goHome();">Tramell Software Development</font>
+<a id="phoneLink" title="Contact Tramell Software Development" href="https://alectramell.github.io/contact.html">contact us</a>
 </center>
 
 <font id="facebookLink" onclick="gotoFacebook();">facebook</font>
+
+<div id="desTextBox">
+<center>
+<font id="desText">Tramell Software Development provides projects for several architectures. One of these architectures, is the <font color="#7ebcf2">Mac OS Platform</font>. From flying toasters to chrome gradient apples, we have been working with Mac OS for some time. If you are looking to deploy software on the Mac OS Platform, we are here to help make that happen. We have the resources and experience to help you produce your very best on the Macintosh Operating System. For more info, or to discuss a Mac OS project with one of our developers, please visit out <a id="desLink" href="contact.html">Contact Us</a> page.</font>
+</center>
+<br />
+<center>
+<font id="macURL" onclick="window.open('https://www.apple.com/mac/');">https://www.apple.com</font>
+</center>
+</div>
 
 </body>
 </html>

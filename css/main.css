@@ -246,7 +246,7 @@
 
 	position:relative;
 	font-family:segoe;
-	font-size:24px;
+	font-size:33px;
 	color:#ffffff;
 	opacity:1.0;
 	cursor:auto;
@@ -256,7 +256,7 @@
 
 	position:relative;
 	font-family:sfp;
-	font-size:24px;
+	font-size:33px;
 	color:#ffffff;
 	opacity:1.0;
 	cursor:auto;
@@ -387,6 +387,49 @@
 	opacity:1.0;
 	cursor:pointer;
 	content:url(https://alectramell.github.io/img/windows.png);
+}
+
+#desTextBox {
+
+	position:fixed;
+	padding:60px 90px;
+	width:80%;
+	height:50%;
+	border:0px solid #ffffff;
+}
+
+#desText {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:20px;
+}
+
+#desLink {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:20px;
+	color:#009dd1;
+	text-decoration:none;
+}
+
+#winURL {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:16px;
+	color:#ffaa00;
+	cursor:pointer;
+}
+
+#macURL {
+
+	position:relative;
+	font-family:Verdana;
+	font-size:16px;
+	color:#7ebcf2;
+	cursor:pointer;
 }
 
 #titleText {

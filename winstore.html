@@ -8,7 +8,7 @@ Tramell Software Development (r)
 <link type="text/css" rel="stylesheet" href="css/main.css">
 <script type="text/javascript" src="js/index.js"></script>
 </head>
-<body onload='offNote();'>
+<body>
 
 <img id="winStore" src="img/windows.png" title="Projects for Windows" onclick="winStoreOpen();">
 <img id="macStore" src="img/macosMAIN.png" title="Projects for MacOS" onclick="macStoreOpen();">
@@ -17,17 +17,27 @@ Tramell Software Development (r)
 <img id="homeButton" src="img/homeMAIN.png" onclick="goHome();">
 
 <center>
-<font id="appsForText" align="abs_middle">projects for</font>
+<font id="appsForText" align="abs_middle">Projects for</font>
 </center>
 <center>
 <font id="windowsTitle" align="abs_middle"><b>Windows</b></font>
 </center>
 
 <center>
-<font id="titleText" onclick="goHome();">Tramell Software Development</font>
+<a id="phoneLink" title="Contact Tramell Software Development" href="https://alectramell.github.io/contact.html">contact us</a>
 </center>
 
 <font id="facebookLink" onclick="gotoFacebook();">facebook</font>
+
+<div id="desTextBox">
+<center>
+<font id="desText">Tramell Software Development provides projects for several architectures. One of these architectures, is the <font color="#ffaa00">Microsoft Windows Platform</font>. We have been working with Windows since the releases of DOS and Windows 3.0. If you are looking to deploy software on the Windows Platform, we are here to help make that happen. We have the resources and experience to help you produce your very best on Windows Operating Systems. For more info, or to discuss a Windows project with one of our developers, please visit our <a id="desLink" href="contact.html">Contact Us</a> page.</font>
+</center>
+<br />
+<center>
+<font id="winURL" onclick="window.open('https://www.microsoft.com/en-us/windows/');">https://www.microsoft.com</font>
+</center>
+</div>
 
 </body>
 </html>
