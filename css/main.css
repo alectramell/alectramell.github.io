@@ -397,15 +397,16 @@
 	font-family:strasua;
 	font-size:14px;
 	text-decoration:none;
-	cursor:arrow;
+	cursor:pointer;
 }
 
 #emailLinkcontact {
 
 	position:relative;
-	font-family:Verdana;
-	font-size:20px;
-	font-weight:none;
+	right:4%;
+	font-family:Consolas;
+	font-size:24px;
+	font-weight:normal;
 	color:#ffffff;
 	opacity:0.8;
 	text-decoration:none;
@@ -415,9 +416,10 @@
 #emailLinkcontact:hover {
 
 	position:relative;
-	font-family:Verdana;
-	font-size:20px;
-	font-weight:none;
+	right:4%;
+	font-family:Consolas;
+	font-size:24px;
+	font-weight:bold;
 	color:#ffffff;
 	opacity:1.0;
 	text-decoration:none;
@@ -427,9 +429,10 @@
 #phoneLinkcontact {
 
 	position:relative;
-	font-family:Verdana;
-	font-size:20px;
-	font-weight:none;
+	right:4%;
+	font-family:Consolas;
+	font-size:24px;
+	font-weight:normal;
 	color:#ffffff;
 	opacity:0.8;
 	text-decoration:none;
@@ -439,9 +442,10 @@
 #phoneLinkcontact:hover {
 
 	position:relative;
-	font-family:Verdana;
-	font-size:20px;
-	font-weight:none;
+	right:4%;
+	font-family:Consolas;
+	font-size:24px;
+	font-weight:bold;
 	color:#ffffff;
 	opacity:1.0;
 	text-decoration:none;
@@ -451,7 +455,7 @@
 #phoneLink {
 
 	position:absolute;
-	bottom:5px;
+	bottom:4px;
 	right:10px;
 	font-family:Verdana;
 	font-size:24px;
@@ -465,7 +469,7 @@
 #phoneLink:hover {
 
 	position:absolute;
-	bottom:5px;
+	bottom:4px;
 	right:10px;
 	font-family:Verdana;
 	font-size:24px;
