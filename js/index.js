@@ -1,12 +1,3 @@
-function detectmob() {
-
-	if(window.innerWidth <= 800) {
-		return true;
-	} else {
-		return false;
-	}
-}
-
 function reLoad(xvar) {
 
 	setTimeout(function(){location.reload();}, xvar);
