@@ -8,11 +8,29 @@ Check Size
 <body>
 
 <script type="text/javascript">
+var detectedOS = "Unknown OS";
+
+if (navigator.appVersion.indexOf("Mac") != -1) 
+	detectedOS = "MacOS";
+
+if (navigator.appVersion.indexOf("Win") != -1) 
+	detectedOS = "Windows";
+
+if (navigator.appVersion.indexOf("Linux") != -1) 
+	detectedOS = "Linux";
+
+function detect() {
+	alert(`Device OS is: ${detectedOS}`)
+}
+
+detect();
+
 console.log(window.innerWidth);
 console.log(window.innerHeight);
 document.write(window.innerWidth);
-document.write('<br />')
+document.write('<br />');
 document.write(window.innerHeight);
+document.write('<br />');
 </script>
 
 </body>
