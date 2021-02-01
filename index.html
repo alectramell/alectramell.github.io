@@ -12,9 +12,16 @@ Tramell Software Development (r)
 <body>
 
 <script type="text/javascript">
-if (detectmob()) {
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 
-	top.location.href='mobile.html';
+	// true for mobile device
+	console.log('mobile-device=true');
+	parent.location = 'mobile.html';
+
+} else {
+
+	// false for not mobile device
+	console.log('mobile-device=false');
 }
 </script>
 
