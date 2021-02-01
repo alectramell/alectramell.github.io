@@ -319,7 +319,7 @@
 	position:absolute;
 	top:0px;
 	left:7px;
-	height:118px;
+	height:25%;
 	opacity:0.95;
 	cursor:pointer;
 }
@@ -329,7 +329,7 @@
 	position:absolute;
 	top:0px;
 	left:8px;
-	height:118px;
+	height:25%;
 	opacity:1.0;
 	cursor:pointer;
 	content:url(https://alectramell.github.io/img/udemylogo.png);
@@ -576,10 +576,10 @@
 #facebookLinkMob {
 
 	position:absolute;
-	top:110px;
-	left:44px;
+	bottom:30px;
+	left:45px;
 	font-family:facebook;
-	font-size:40px;
+	font-size:300%;
 	color:#2495ff;
 	cursor:pointer;
 }
@@ -587,10 +587,10 @@
 #facebookLinkMob:hover {
 
 	position:absolute;
-	top:110px;
-	left:45px;
+	bottom:30px;
+	left:46px;
 	font-family:facebook;
-	font-size:40px;
+	font-size:300%;
 	color:#2495ff;
 	cursor:pointer;
 }
