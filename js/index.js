@@ -42,10 +42,10 @@ function offNote() {
 
 function callUS() {
 
-	window.open = 'tel:8018931187';
+	window.open('tel:8018931187');
 }
 
 function emailUS() {
 
-	window.open = 'mailto:alectramell@gmail.com';
+	window.open('mailto:alectramell@gmail.com');
 }
