@@ -7,11 +7,6 @@ function detectmob() {
 	}
 }
 
-if (detectmob()) {
-
-	top.location.href='mobile.html';
-}
-
 function reLoad(xvar) {
 
 	setTimeout(function(){location.reload();}, xvar);
