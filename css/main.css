@@ -9,6 +9,17 @@
 	color:#ffffff;
 }
 
+.mobile, html {
+
+	background:#050505;
+	background-size:cover;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	cursor:url(../img/arrow.cur), auto;
+	color:#ffffff;
+}
+
 .macos, html {
 
 	background:url(../img/bgBlank.png), #000000;
@@ -206,6 +217,29 @@
 	border-radius:10px;
 }
 
+#homeButtonMob {
+
+	position:absolute;
+	top:16px;
+	right:27px;
+	width:64px;
+	height:64px;
+	opacity:0.8;
+	cursor:pointer;
+}
+
+#homeButtonMob:hover {
+
+	position:absolute;
+	top:16px;
+	right:27px;
+	width:64px;
+	height:64px;
+	opacity:1.0;
+	cursor:pointer;
+	content:url(https://alectramell.github.io/img/homeHOVER.png);
+}
+
 #homeButton {
 
 	position:absolute;
@@ -278,6 +312,27 @@
 	height:48px;
 	opacity:1.0;
 	cursor:pointer;
+}
+
+#udemyStoreMob {
+
+	position:absolute;
+	top:0px;
+	left:7px;
+	height:118px;
+	opacity:0.95;
+	cursor:pointer;
+}
+
+#udemyStoreMob:hover {
+
+	position:absolute;
+	top:0px;
+	left:8px;
+	height:118px;
+	opacity:1.0;
+	cursor:pointer;
+	content:url(https://alectramell.github.io/img/udemylogo.png);
 }
 
 #udemyStore {
@@ -515,6 +570,28 @@
 	color:#ffffff;
 	opacity:1.0;
 	text-decoration:none;
+	cursor:pointer;
+}
+
+#facebookLinkMob {
+
+	position:absolute;
+	top:110px;
+	left:44px;
+	font-family:facebook;
+	font-size:40px;
+	color:#2495ff;
+	cursor:pointer;
+}
+
+#facebookLinkMob:hover {
+
+	position:absolute;
+	top:110px;
+	left:45px;
+	font-family:facebook;
+	font-size:40px;
+	color:#2495ff;
 	cursor:pointer;
 }
 

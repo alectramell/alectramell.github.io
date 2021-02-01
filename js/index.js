@@ -1,3 +1,7 @@
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ parent.location = 'mobile.html';
+}
+
 function reLoad(xvar) {
 
 	setTimeout(function(){location.reload();}, xvar);
@@ -12,6 +16,11 @@ function goTab(url) {
 
 	var win = window.open(url, '_blank');
 	win.focus();
+}
+
+function gotoFacebookMob() {
+
+	goTab('https://m.facebook.com/tramelldev');
 }
 
 function gotoFacebook() {
