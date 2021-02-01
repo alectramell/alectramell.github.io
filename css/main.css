@@ -617,12 +617,22 @@
 	cursor:pointer;
 }
 
+#dashMOB {
+
+	position:fixed;
+	bottom:20px;
+	width:100%;
+	border:0px solid #ffffff;
+	color:#ffffff;
+	opacity:1.0;
+}
+
 #phMOB {
 
 	position:relative;
-	top:20px;
-	left:15px;
-	width:15%;
+	bottom:20px;
+	width:20%;
+	margin:auto;
 	opacity:1.0;
 	cursor:pointer;
 }
@@ -631,19 +641,19 @@
 #phMOB:hover {
 
 	position:relative;
-	top:20px;
-	left:15px;
-	width:15%;
-	opacity:0.9;
+	bottom:20px;
+	width:20%;
+	margin:auto;
+	opacity:0.8;
 	cursor:pointer;
 }
 
 #emMOB {
 
 	position:relative;
-	top:20px;
-	left:15px;
-	width:15%;
+	bottom:20px;
+	width:20%;
+	margin:auto;
 	opacity:1.0;
 	cursor:pointer;
 }
@@ -651,19 +661,19 @@
 #emMOB:hover {
 
 	position:relative;
-	top:20px;
-	left:15px;
-	width:15%;
-	opacity:0.9;
+	bottom:20px;
+	width:20%;
+	margin:auto;
+	opacity:0.8;
 	cursor:pointer;
 }
 
 #fbMOB {
 
 	position:relative;
-	top:20px;
-	left:15px;
-	width:15%;
+	bottom:20px;
+	width:20%;
+	margin:auto;
 	opacity:1.0;
 	cursor:pointer;
 }
@@ -671,19 +681,19 @@
 #fbMOB:hover {
 
 	position:relative;
-	top:20px;
-	left:15px;
-	width:15%;
-	opacity:0.9;
+	bottom:20px;
+	width:20%;
+	margin:auto;
+	opacity:0.8;
 	cursor:pointer;
 }
 
 #udMOB {
 
 	position:relative;
-	top:20px;
-	left:15px;
-	width:15%;
+	bottom:20px;
+	width:20%;
+	margin:auto;
 	opacity:1.0;
 	cursor:pointer;
 }
@@ -691,10 +701,10 @@
 #udMOB:hover {
 
 	position:relative;
-	top:20px;
-	left:15px;
-	width:15%;
-	opacity:0.9;
+	bottom:20px;
+	width:20%;
+	margin:auto;
+	opacity:0.8;
 	cursor:pointer;
 }
 
