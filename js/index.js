@@ -1,5 +1,15 @@
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- parent.location = 'mobile.html';
+function detectmob() {
+
+	if(window.innerWidth <= 800 || window.innerHeight <= 600) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+if (detectmob()) {
+
+	top.location.href='mobile.html';
 }
 
 function reLoad(xvar) {
