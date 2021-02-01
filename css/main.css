@@ -15,6 +15,7 @@
 	background-size:cover;
 	overflow:hidden;
 	cursor:auto;
+	cursor:url(../img/arrow.cur), auto;
 	color:#ffffff;
 }
 
@@ -24,6 +25,7 @@
 	background-size:cover;
 	overflow:hidden;
 	cursor:auto;
+	cursor:url(../img/arrow.cur), auto;
 	color:#ffffff;
 }
 
@@ -449,53 +451,43 @@
 #emailLinkcontact {
 
 	position:relative;
-	right:4%;
-	font-family:Verdana;
-	font-size:24px;
-	font-weight:normal;
-	color:#ffffff;
-	opacity:0.8;
-	text-decoration:none;
+	top:9px;
+	left:-35px;
+	width:20%;
+	opacity:1.0;
 	cursor:pointer;
 }
 
 #emailLinkcontact:hover {
 
 	position:relative;
-	right:4%;
-	font-family:Verdana;
-	font-size:24px;
-	font-weight:normal;
-	color:#ffffff;
+	top:9px;
+	left:-35px;
+	width:20%;
 	opacity:1.0;
-	text-decoration:none;
 	cursor:pointer;
+	content:url(../img/emailB.png);
 }
 
 #phoneLinkcontact {
 
 	position:relative;
-	right:4%;
-	font-family:Verdana;
-	font-size:24px;
-	font-weight:normal;
-	color:#ffffff;
-	opacity:0.8;
-	text-decoration:none;
+	top:-5px;
+	width:17%;
+	right:22px;
+	opacity:1.0;
 	cursor:pointer;
 }
 
 #phoneLinkcontact:hover {
 
 	position:relative;
-	right:4%;
-	font-family:Verdana;
-	font-size:24px;
-	font-weight:normal;
-	color:#ffffff;
+	top:-5px;
+	width:17%;
+	right:22px;
 	opacity:1.0;
-	text-decoration:none;
 	cursor:pointer;
+	content:url(../img/phoneB.png);
 }
 
 #phoneLink {

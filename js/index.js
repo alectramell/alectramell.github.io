@@ -39,3 +39,13 @@ function offNote() {
 	setTimeout(function(){alert('This Page is Temporarily Not Available.')}, 1500);
 	setTimeout(function(){goHome()}, 1500);
 }
+
+function callUS() {
+
+	window.open = 'tel:8018931187';
+}
+
+function emailUS() {
+
+	window.open = 'mailto:alectramell@gmail.com';
+}
