@@ -1,3 +1,8 @@
+function goFillScreen() {
+
+	document.documentElement.requestFullscreen()
+}
+
 function reLoad(xvar) {
 
 	setTimeout(function(){location.reload();}, xvar);
