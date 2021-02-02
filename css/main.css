@@ -11,7 +11,7 @@
 
 .mobile, html {
 
-	background:url(../img/bgMOB.png), #ffffff;
+	background:url(../img/bgMOBmain.png), #ffffff;
 	background-size:cover;
 	width:100%;
 	height:100%;
@@ -56,6 +56,14 @@
 	animation-duration:2500ms;
 	animation-iteration-count:1;
 	animation-fill-mode:forwards;
+}
+
+#logoTAG {
+
+	position:relative;
+	top:5%;
+	width:50%;
+	cursor:url(../img/arrow.cur), auto;
 }
 
 #cbanner {
