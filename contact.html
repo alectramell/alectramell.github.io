@@ -10,22 +10,43 @@ Tramell Software Development (r)
 </head>
 <body>
 
+
+<script type="text/javascript">
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+
+	// true for mobile device
+	console.log('mobile-device=true');
+	parent.location = 'mobile.html';
+
+} else {
+
+	// false for not mobile device
+	console.log('mobile-device=false');
+}
+</script>
+
 <!-- img id="winStore" src="img/windowsMAIN.png" title="Projects for Windows" onclick="winStoreOpen();" -->
 <!-- img id="macStore" src="img/macosMAIN.png" title="Projects for MacOS" onclick="macStoreOpen();" -->
 <!--img id="pyStore" src="img/pythonMAIN.png" title="Python Module Libraries" onclick="alert('Coming Soon..');" -->
 <img id="udemyStore" src="img/udemylogo.png" title="Courses on Udemy" onclick="alert('Udemy Courses are coming soon..');">
 <img id="homeButton" src="img/homeMAIN.png" onclick="goHome();">
 
-<!-- center>
-<font id="windowsTitle" align="abs_middle"><b>Contact Us</b></font>
-</center -->
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
+<center>
+<font face="Verdana" size="6">Alec Tramell, DMA</font>
 <br />
 <br />
+<font face="Verdana" size="4">(+1) 801-893-1187</font>
 <br />
-<br />
-<br />
-<br />
+<font face="Verdana" size="4">alectramell@gmail.com</font>
+</center>
 
 <center>
 <img id="emailLinkcontact" src="img/emailA.png" onclick="emailUS();">

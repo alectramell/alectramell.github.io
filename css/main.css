@@ -506,9 +506,7 @@
 #emailLinkcontact {
 
 	position:relative;
-	top:9px;
-	left:-35px;
-	width:20%;
+	width:72px;
 	opacity:1.0;
 	cursor:pointer;
 }
@@ -516,9 +514,7 @@
 #emailLinkcontact:hover {
 
 	position:relative;
-	top:9px;
-	left:-35px;
-	width:20%;
+	width:72px;
 	opacity:1.0;
 	cursor:pointer;
 	content:url(../img/emailB.png);
@@ -527,9 +523,8 @@
 #phoneLinkcontact {
 
 	position:relative;
-	top:-5px;
-	width:17%;
-	right:22px;
+	top:-4px;
+	width:64px;
 	opacity:1.0;
 	cursor:pointer;
 }
@@ -537,9 +532,8 @@
 #phoneLinkcontact:hover {
 
 	position:relative;
-	top:-5px;
-	width:17%;
-	right:22px;
+	top:-4px;
+	width:64px;
 	opacity:1.0;
 	cursor:pointer;
 	content:url(../img/phoneB.png);
