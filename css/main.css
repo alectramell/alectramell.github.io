@@ -20,6 +20,14 @@
 	color:#ffffff;
 }
 
+.centerBOX {
+
+	margin:auto;
+	width:50%;
+	border:0px solid #ffffff;
+	padding:10px;
+}
+
 #slurTitle {
 
 	position:relative;
