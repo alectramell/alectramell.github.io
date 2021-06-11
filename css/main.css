@@ -30,9 +30,7 @@
 
 #slurEMB {
 
-	position:absolute;
-	width:80%;
-	height:80%;
+	position:fixed;
 	opacity:1.0;
 	content:url(https://alectramell.github.io/img/xslurMAIN.png);
 }
