@@ -40,7 +40,7 @@
 	position:relative;
 	left:10px;
 	text-align:center;
-	font-family:Consolas;
+	font-family:Verdana;
 	font-size:26px;
 	color:#ffffff;
 	opacity:1.0;
@@ -648,7 +648,7 @@
 	width:72px;
 	height:72px;
 	opacity:0.85;
-	content:url(https://alectramell.github.io/img/xslurMAIN.png);
+	content:url(https://alectramell.github.io/img/xslurBW.png);
 	cursor:pointer;
 }
 
