@@ -593,22 +593,24 @@
 #slurLink {
 
 	position:absolute;
-	top:16px;
-	left:26px;
-	width:64px;
-	height:64px;
-	opacity:0.9;
+	top:11px;
+	left:15px;
+	width:72px;
+	height:72px;
+	opacity:0.85;
+	content:url(https://alectramell.github.io/img/xslurMAIN.png);
 	cursor:pointer;
 }
 
 #slurLink:hover {
 
 	position:absolute;
-	top:16px;
-	left:26px;
-	width:64px;
-	height:64px;
+	top:14px;
+	left:15px;
+	width:82px;
+	height:82px;
 	opacity:1.0;
+	content:url(https://alectramell.github.io/img/xslurMAIN.png);
 	cursor:pointer;
 }
 
