@@ -595,9 +595,11 @@
 	position:absolute;
 	top:16px;
 	left:26px;
+	width:64px;
+	height:64px;
 	opacity:0.9;
 	cursor:pointer;
-	content:url(https://alectramell.github.io/img/slurMAIN.png);
+	content:url(https://alectramell.github.io/img/xslurMAIN.png);
 }
 
 #slurLink:hover {
@@ -605,9 +607,11 @@
 	position:absolute;
 	top:16px;
 	left:26px;
+	width:64px;
+	height:64px;
 	opacity:1.0;
 	cursor:pointer;
-	content:url(https://alectramell.github.io/img/slurMAIN.png);
+	content:url(https://alectramell.github.io/img/xslurMAIN.png);
 }
 
 #facebookLinkMob {
