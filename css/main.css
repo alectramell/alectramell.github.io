@@ -590,6 +590,26 @@
 	cursor:pointer;
 }
 
+#slurLink {
+
+	position:absolute;
+	top:16px;
+	left:26px;
+	opacity:0.9;
+	cursor:pointer;
+	content:url(https://alectramell.github.io/img/slurMAIN.png);
+}
+
+#slurLink:hover {
+
+	position:absolute;
+	top:16px;
+	left:26px;
+	opacity:1.0;
+	cursor:pointer;
+	content:url(https://alectramell.github.io/img/slurMAIN.png);
+}
+
 #facebookLinkMob {
 
 	position:absolute;
