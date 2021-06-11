@@ -20,6 +20,28 @@
 	color:#ffffff;
 }
 
+#slurTitle {
+
+	position:relative;
+	padding:10%;
+	font-family:Verdana;
+	font-size:24px;
+	color:#ffffff;
+	opacity:1.0;
+	text-decoration:none;	
+}
+
+#slurSubTitle {
+
+	position:relative;
+	padding:10%;
+	font-family:Verdana;
+	font-size:18px;
+	color:#ffffff;
+	opacity:1.0;
+	text-decoration:none;	
+}
+
 .mobile, html {
 
 	background:url(../img/bgMOBmain.png), #ffffff;
