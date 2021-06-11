@@ -30,9 +30,11 @@
 
 #slurTitle {
 
+	position:relative;
+	left:10px;
 	text-align:center;
-	font-family:Verdana;
-	font-size:24px;
+	font-family:Consolas;
+	font-size:26px;
 	color:#ffffff;
 	opacity:1.0;
 	text-decoration:none;	
@@ -40,6 +42,8 @@
 
 #slurSubTitle {
 
+	position:relative;
+	left:10px;
 	text-align:center;
 	font-family:Verdana;
 	font-size:18px;
