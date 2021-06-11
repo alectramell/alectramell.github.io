@@ -28,6 +28,15 @@
 	padding:10px;
 }
 
+#slurEMB {
+
+	position:absolute;
+	width:80%;
+	height:80%;
+	opacity:1.0;
+	content:url(https://alectramell.github.io/img/xslurMAIN.png);
+}
+
 #slurTitle {
 
 	position:relative;
