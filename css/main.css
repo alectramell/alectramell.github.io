@@ -664,6 +664,24 @@
 	cursor:pointer;
 }
 
+#fbchat {
+
+	position:absolute;
+	top:14px;
+	left:15px;
+	opacity:1.0;
+	cursor:pointer;
+}
+
+#fbchat:hover {
+
+	position:absolute;
+	top:14px;
+	left:15px;
+	opacity:1.0;
+	cursor:pointer;
+}
+
 #facebookLinkMob {
 
 	position:absolute;
