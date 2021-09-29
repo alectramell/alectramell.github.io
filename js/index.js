@@ -59,3 +59,8 @@ function emailUS() {
 
 	parent.location = 'mailto:alectramell@gmail.com';
 }
+
+function toggleZoomScreen() {
+
+	document.body.style.zoom = "125%";
+}
