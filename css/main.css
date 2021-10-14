@@ -9,6 +9,17 @@
 	color:#ffffff;
 }
 
+.subsite, html {
+
+	background:url(../img/bgSUB.png), #000000;
+	background-size:cover;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	cursor:url(../img/arrow.cur), auto;
+	color:#ffffff;
+}
+
 .slur, html {
 
 	background:url(https://alectramell.github.io/img/bgBlank.png), #000000;
@@ -18,6 +29,18 @@
 	overflow:hidden;
 	cursor:url(https://alectramell.github.io/img/arrow.cur), auto;
 	color:#ffffff;
+}
+
+#homeBoxLink {
+
+	position:absolute;
+	background:#ffffff;
+	top:15px;
+	left:15px;
+	width:90px;
+	height:60px;
+	opacity:0.0;
+	cursor:pointer;
 }
 
 .centerBOX {
