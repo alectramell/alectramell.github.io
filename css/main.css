@@ -93,9 +93,8 @@
 	color:#ffffff;
 }
 
-.centered {
+.zoomer {
 
-	margin:20%;
 	animation:zoom 1500ms;
 	animation-fill-mode:forwards;
 }
