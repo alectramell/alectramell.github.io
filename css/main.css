@@ -96,6 +96,18 @@
 .centered {
 
 	margin:20%;
+	animation:zoom 1500ms;
+	animation-fill-mode:forwards;
+}
+
+@keyframes zoom {
+
+	from {
+        	transform: scale(1,1);
+	}
+	to {
+		transform: scale(1.5,1.5);
+	}
 }
 
 .mobile, html {
