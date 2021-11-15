@@ -95,7 +95,8 @@
 
 .zoomer {
 
-	padding:6%;
+	top:10%;
+	padding:5%;
 	animation:zoom 1500ms;
 	animation-fill-mode:forwards;
 }
