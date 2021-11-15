@@ -1,4 +1,4 @@
-function goFillScreen() {
+function goFullScreen() {
 
 	document.documentElement.requestFullscreen()
 }

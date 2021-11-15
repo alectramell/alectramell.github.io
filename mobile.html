@@ -11,9 +11,13 @@ Tramell Software Development (r)
 </head>
 <body onload="goFullScreen()">
 
-<!-- center>
-<img id="logoTAG" src="img/logoTAG.png">
-</center -->
+<script>
+	document.addEventListener('click', () => {
+		document.documentElement.requestFullscreen().catch((e) => {
+			console.log(e);
+		});
+	});
+</script>
 
 <center>
 <img id="arcDARK" src="img/arcDARK.png">
