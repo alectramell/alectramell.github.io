@@ -13,7 +13,7 @@ Tramell Software Development (r)
 <body>
 
 <script type="text/javascript">
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+if (/Android|webOS/i.test(navigator.userAgent)){
 
 	// true for mobile device
 	console.log('mobile-device=true');
@@ -23,6 +23,20 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 	// false for not mobile device
 	console.log('mobile-device=false');
+}
+</script>
+
+<script type="text/javascript">
+if (/iPhone|iPad|iPod/i.test(navigator.userAgent)){
+
+  // true for mobile device
+  console.log('mobile-device=true');
+  parent.location = 'mobile.html';
+
+} else {
+
+  // false for not mobile device
+  console.log('mobile-device=false');
 }
 </script>
 
