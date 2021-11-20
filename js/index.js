@@ -41,7 +41,7 @@ function macStoreOpen() {
 
 function goHome() {
 
-	parent.location = 'https://alectramell.github.io/home.html';
+	parent.location = 'https://alectramell.github.io';
 }
 
 function offNote() {
