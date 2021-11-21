@@ -126,13 +126,13 @@
 
 .mobile, html {
 
-	background:#ffffff;
+	background:#000000;
 	background-size:cover;
 	width:100%;
 	height:100%;
 	overflow:hidden;
 	cursor:url(../img/arrow.cur), auto;
-	color:#ffffff;
+	color:#000000;
 }
 
 .macos, html {
