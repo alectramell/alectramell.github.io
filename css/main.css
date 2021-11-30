@@ -135,6 +135,16 @@
 	color:#000000;
 }
 
+.ionmob, html {
+
+	background:url(../img/ionbg.png), #000000;
+	background-size:cover;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	color:#000000;
+}
+
 .macos, html {
 
 	background:url(../img/bgBlank.png), #000000;
