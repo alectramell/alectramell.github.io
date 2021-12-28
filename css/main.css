@@ -9,6 +9,24 @@
 	color:#ffffff;
 }
 
+#darequest {
+
+	position:absolute;
+	top:10px;
+	right:15px;
+	width:128px;
+	opacity:0.8;
+}
+
+#darequest:hover {
+
+	position:absolute;
+	top:10px;
+	right:15px;
+	width:128px;
+	opacity:1.0;
+}
+
 .subsite, html {
 
 	background:url(../img/bgSUB.png), #000000;
