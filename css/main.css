@@ -1,6 +1,6 @@
 .home, html {
 
-	background:url(../img/bgBLANK.png), #000000;
+	background:url(../img/bgBlank.png), #000000;
 	background-size:cover;
 	width:100%;
 	height:100%;
@@ -87,28 +87,42 @@
 	}
 }
 
+@keyframes growINx {
+
+	0% {
+		opacity:0.0;
+		transform: scale(0.0);
+	}
+
+	50% {
+		opacity:0.80;
+		transform: scale(1.0);
+	}
+
+	100% {
+		opacity:1.0;
+		transform: scale(1.0);
+	}
+}
+
 #winappslink {
 
-	animation-name:slowIN;
-	animation-duration:500ms;
+	animation-name:growINx;
+	animation-duration:1000ms;
+	animation-fill-mode:forwards;
 	position:relative;
 	top:50px;
 	width:300px;
 	height:300px;
+	opacity:1.0;
 	content:url("https://alectramell.github.io/img/windows-apps.png");
 }
 
 #winappslink:hover {
 
-	animation-name:slowIN;
-	animation-duration:500ms;
-	animation-fill-mode:forward;
-	position:relative;
-	top:50px;
-	width:300px;
-	height:300px;
-	content:url("https://alectramell.github.io/img/windows-apps.png");
+	opacity:1.0;
 	cursor:pointer;
+	content:url("https://alectramell.github.io/img/windows-apps.png");
 }
 
 #app001 {
