@@ -1,6 +1,6 @@
 .home, html {
 
-	background:url(../img/bg.png), #000000;
+	background:url(../img/bgBLANK.png), #000000;
 	background-size:cover;
 	width:100%;
 	height:100%;
@@ -85,6 +85,15 @@
 	100% {
 		opacity:1.0;
 	}
+}
+
+#winappslink {
+
+	position:relative;
+	top:100px;
+	width:256px;
+	height:256px;
+	content:url("https://alectramell.github.io/img/windows-apps.png");
 }
 
 #app001 {
