@@ -30,7 +30,7 @@
 
 .subsite, html {
 
-	background:url(../img/bgSUB.png), #000000;
+	background:url(../img/bgBLANK.png), #000000;
 	background-size:cover;
 	width:100%;
 	height:100%;
@@ -48,6 +48,50 @@
 	overflow:hidden;
 	cursor:url(https://alectramell.github.io/img/arrow.cur), auto;
 	color:#ffffff;
+}
+
+#exitHomeBTN {
+
+	position:absolute;
+	top:15px;
+	left:12px;
+	width:48px;
+	height:48px;
+	opacity:0.8;
+}
+
+#app001 {
+
+	position:fixed;
+	top:60px;
+	left:80px;
+	padding:25px;
+	width:128px;
+	height:129px;
+	opacity:0.9;
+}
+
+#app001:hover {
+
+	position:fixed;
+	top:60px;
+	left:80px;
+	padding:25px;
+	width:130px;
+	height:130px;
+	opacity:1.0;
+	cursor:pointer;
+}
+
+#exitHomeBTN:hover {
+
+	position:absolute;
+	top:15px;
+	left:12px;
+	width:48px;
+	height:48px;
+	opacity:1.0;
+	cursor:pointer;
 }
 
 #homeBoxLink {
