@@ -63,9 +63,9 @@
 #app001 {
 
 	position:relative;
-	left:50px;
-	width:200px;
-	padding:40px;
+	left:45px;
+	width:215px;
+	padding:45px;
 	opacity:1.0;
 	content:url("https://alectramell.github.io/apps/img/app001off.png");
 }
@@ -73,9 +73,9 @@
 #app001:hover {
 
 	position:relative;
-	left:50px;
-	width:200px;
-	padding:40px;
+	left:45px;
+	width:215px;
+	padding:45px;
 	opacity:1.0;
 	cursor:pointer;
 	content:url("https://alectramell.github.io/apps/img/app001on.png");
