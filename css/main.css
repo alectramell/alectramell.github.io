@@ -74,7 +74,12 @@
 @keyframes slowIN {
 
 	0% {
-		opacity:0.1;
+		opacity:1.0;
+	}
+
+	50% {
+		opacity:0.9;
+		width:210px;
 	}
 
 	100% {
@@ -94,8 +99,9 @@
 
 #app001:hover {
 
-	animation-duration:1000ms;
+	animation-duration:200ms;
  	animation-name:slowIN;
+	animation-fill-mode:forwards;
 	position:relative;
 	top:50px;
 	left:85px;
