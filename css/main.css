@@ -1032,7 +1032,7 @@
 	font-family:museo;
 	font-weight:bold;
 	font-size:20px;
-	color:#c4c4c4;
+	color:#ffffff;
 	opacity:0.1;
 	z-index:1;
 }
@@ -1046,10 +1046,10 @@
 	font-family:museo;
 	font-weight:bold;
 	font-size:20px;
-	color:#4c4c4c;
+	color:#ffffff;
 	opacity:1.0;
 	z-index:1;
-	cursor:pointer;
+	cursor:none;
 }
 
 @font-face {
