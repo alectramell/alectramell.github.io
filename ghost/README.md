@@ -10,4 +10,4 @@
 Hello World!
 ```
 
-[DOWNLOAD](https://alectramell.github.io/ghost/ghost.pyc)
+[Download ghost.pyc (Windows 10+)](https://alectramell.github.io/ghost/ghost.pyc)
