@@ -1,6 +1,5 @@
 # GHOST v1.0
 ## Python3 | Encrypted Data Module
-## Tramell Software Development (AGY)
 
 ## Usage (Example)..
 ```
@@ -10,3 +9,5 @@
 >> print(mydata)
 Hello World!
 ```
+
+[DOWNLOAD](https://alectramell.github.io/ghost/ghost.pyc)
