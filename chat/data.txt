@@ -1,7 +1,1 @@
 hello
-goodbye
-sup
-...
-...
-hello
-how are you?
