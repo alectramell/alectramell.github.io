@@ -1,1 +1,0 @@
-# Tramell Software Development (r)
