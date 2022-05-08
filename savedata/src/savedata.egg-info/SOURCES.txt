@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.cfg
-src/savedata.egg-info/PKG-INFO
-src/savedata.egg-info/SOURCES.txt
-src/savedata.egg-info/dependency_links.txt
-src/savedata.egg-info/top_level.txt
