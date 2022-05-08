@@ -9,4 +9,4 @@
 'john doe'
 ```
 
-[Download SAVEDATA (PYC)](https://alectramell.github.io/savedata/savedata.pyc)
+[Download SAVEDATA for Windows (EXE)](https://alectramell.github.io/savedata/savedata-python3.exe)
