@@ -1,0 +1,15 @@
+light green
+(155, 188, 15)
+#9bbc0f
+
+fiber green
+(139, 172, 15)
+#8bac0f
+
+dark green
+(48, 98, 48)
+#306230
+
+darker green
+(15, 56, 15)
+#0f380f
