@@ -2,7 +2,7 @@ import os
 import sys
 import urllib.request
 
-# Updated 2022
+# Update 2..
 
 class wifi:
 
