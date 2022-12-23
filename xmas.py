@@ -6,11 +6,11 @@ import cursor
 cursor.hide()
 
 class bcolors:
+    OKBLACK = '\033[30m'
     OKPURPLE = '\033[95m'
     OKBLUE = '\033[94m'
     OKCYAN = '\033[96m'
     OKGREEN = '\033[92m'
-    OKXMAS = '\033[37m\033[40m'
     OKGOLD = '\033[93m'
     OKBROWN = '\033[33m'
     OKRED = '\033[91m'
@@ -20,6 +20,14 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+    if len(sys.argv) < 2:
+         OKXMAS = '\033[37m\033[40m'
+    elif sys.argv[1].lower() == 'show':
+         OKXMAS = '\033[37m\033[40m'
+    elif sys.argv[1].lower() == 'hide':
+         OKXMAS = OKBLACK
+    else:
+         OKXMAS = '\033[37m\033[40m'
 
 cols = shutil.get_terminal_size().columns
 
