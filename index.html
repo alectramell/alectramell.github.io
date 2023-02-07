@@ -26,8 +26,8 @@ function toggleZoomScreen(xnum) {
   if (OSName == "Windows") toggleZoomScreen(100);
   if (OSName == "Linux") toggleZoomScreen(100);
   if (OSName == "Macintosh") toggleZoomScreen(100);
-  if (OSName == "Android") toggleZoomScreen(125);
-  if (OSName == "iOS") toggleZoomScreen(125);
+  if (OSName == "Android") screen.orientation.lock('landscape');
+  if (OSName == "iOS") screen.orientation.lock('landscape');
   
 }
 </script>
