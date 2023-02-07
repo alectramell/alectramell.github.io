@@ -24,19 +24,39 @@ body, html {
 }
 
 #topspace {
-  padding:40px;
+  padding:35px;
 }
 
-#padded {
-  padding:1%;
-  margin-left:10%;
+#box {
+  padding:5px;
+  margin-left:3.0%;
+  width:110%;
+  border-radius:10px;
+  background:#222222;
+  opacity:0.99;
+}
+
+#box:hover {
+  padding:5px;
+  margin-left:3.0%;
+  width:110%;
+  border-radius:10px;
+  background:#222222;
+  animation-name:glow;
+  animation-duration:550ms;
+}
+
+@keyframes glow {
+  0% {margin-left:2.5%;}
+  50% {margin-left:3.5%;}
+  100% {margin-left:3.0%;}
 }
 </style>
 
 <div id="topspace">
 </div>
 
-<div id="padded">
+<div id="box">
 <iframe frameborder="0" src="https://itch.io/embed/1915953?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=fa5c5c&amp;border_color=222222" width="550" height="165"><a href="https://tramellsoftware.itch.io/run-pix-run">Run Pix Run! by Tramell Software Development</a></iframe>
 </div>
 
