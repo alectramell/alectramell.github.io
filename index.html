@@ -7,8 +7,30 @@ Tramell Software Development (AGY)
 <link type="image/ico" rel="icon" href="img/favicon.ico">
 <script type="text/javascript" src="js/index.js"></script>
 <meta http-equiv="refresh" content="30">
+<!-- meta name="viewport" content="width=device-width, initial-scale=1.0" -->
 </head>
 <body bgcolor="#000000">
+
+<script type="text/javascript">
+function toggleZoomScreen(xnum) {
+  document.body.style.zoom = xnum+"%";
+}
+
+{
+  var OSName = "Unknown OS";
+  if (navigator.userAgent.indexOf("Win") != -1) OSName = "Windows";
+  if (navigator.userAgent.indexOf("Mac") != -1) OSName = "Macintosh";
+  if (navigator.userAgent.indexOf("Linux") != -1) OSName = "Linux";
+  if (navigator.userAgent.indexOf("Android") != -1) OSName = "Android";
+  if (navigator.userAgent.indexOf("like Mac") != -1) OSName = "iOS";
+  if (OSName == "Windows") toggleZoomScreen(100);
+  if (OSName == "Linux") toggleZoomScreen(100);
+  if (OSName == "Macintosh") toggleZoomScreen(100);
+  if (OSName == "Android") toggleZoomScreen(125);
+  if (OSName == "iOS") toggleZoomScreen(125);
+  
+}
+</script>
 
 <style type="text/css">
 body, html {
