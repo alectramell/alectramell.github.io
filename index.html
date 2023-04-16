@@ -1,59 +1,30 @@
-<!DOCTYPE html>
-<html class="home">
+<html>
 <head>
-<title>
-Tramell Software Development (AGY)
-</title>
-<link type="image/ico" rel="icon" href="img/favicon.ico">
-<script type="text/javascript" src="js/index.js"></script>
-<meta http-equiv="refresh" content="0; url=https://www.shutterstock.com/g/alectramell">
-<!-- meta name="viewport" content="width=device-width, initial-scale=1.0" -->
-</head>
-<body bgcolor="#4c4c4c">
-
-<script type="text/javascript">
-function toggleZoomScreen(xnum) {
-  document.body.style.zoom = xnum+"%";
-}
-
-{
-  var OSName = "Unknown OS";
-  if (navigator.userAgent.indexOf("Win") != -1) OSName = "Windows";
-  if (navigator.userAgent.indexOf("Mac") != -1) OSName = "Macintosh";
-  if (navigator.userAgent.indexOf("Linux") != -1) OSName = "Linux";
-  if (navigator.userAgent.indexOf("Android") != -1) OSName = "Android";
-  if (navigator.userAgent.indexOf("like Mac") != -1) OSName = "iOS";
-  if (OSName == "Windows") toggleZoomScreen(100);
-  if (OSName == "Linux") toggleZoomScreen(100);
-  if (OSName == "Macintosh") toggleZoomScreen(100);
-  if (OSName == "Android") screen.orientation.lock('landscape');
-  if (OSName == "iOS") screen.orientation.lock('landscape');
-  
+<script>
+function renderPAGE() {
+  document.open();
+  document.write(wdata);
+  document.close();
 }
 </script>
+</head>
+<body onload="renderPAGE();">
 
 <style type='text/css' rel='stylesheet'>
 body, html {
 
-  background-color:#4c4c4c;
-  width:100%;
-  height:100%;
+  background-color:#000000;
   background-size:cover;
   overflow:hidden;
 }
 
-#loading {
+* {
 
-  font-weight:bold;
-  font-family:Sans;
-  font-size:16px;
-  color:#4c4c4c;
+  color:#ffffff;
 }
 </style>
 
-<div align='abs_middle'>
-<font id='loading'>loading..</font>
-</div>
+<p>LOADING..</p>
 
 </body>
 </html>
