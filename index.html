@@ -27,10 +27,17 @@ body, html {
 @keyframes fadein {
 
   0% {
+    color:#4a4a4a;
     opacity:0.0;
   }
 
-  80% {
+
+  50% {
+    color:#000000;
+    opacity:0.5;
+  }
+
+  70% {
     color:#ffffff;
     opacity:1.0;
   }
@@ -42,18 +49,18 @@ body, html {
 
 #mainfont {
   font-family:strasua;
-  font-size:42px;
+  font-size:64px;
   font-weight:regular;
   color:#000000;
   animation-name:fadein;
-  animation-duration:5500ms;
+  animation-duration:4500ms;
   opacity:0.0;
   left:200%;
 }
 </style>
 
-<marquee direction='left' behavior='slide' scrollamount='80'>
-<font id='mainfont'>Tramell Software Development</font>
+<marquee direction='left' behavior='slide' scrollamount='35'>
+<font id='mainfont'>Tramell Software</font>
 </marquee>
 
 </body>
