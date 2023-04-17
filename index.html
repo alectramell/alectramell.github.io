@@ -4,37 +4,64 @@
 function updateData() {
 
   let myURL = new URL(window.location.href);
-  let xout = myURL.searchParams.get('wdata');
-  console.log(xout);
+  let xout = myURL.searchParams.get('custom');
 
-  document.open();
-  document.write(xout);
-  document.close();
+  if (xout) {
+
+    let myURL = new URL(window.location.href);
+    let xout = myURL.searchParams.get('custom');
+    console.log(xout);
+
+    document.open();
+    document.write(xout);
+    document.close();
+
+  } else {
+    console.log('null');
+  }
 
 }
 </script>
 </head>
-<body onload=''>
+<body onload='updateData();'>
 
-<font size='5' face='Arial'>Tramell Software Development</font>
+<style>
+body, html {
+
+  background-color:#000000;
+  background-size:cover;
+  overflow:hidden;
+}
+</style>
+
+<font size='5' face='Arial' color='#ffffff'>Tramell Software Development</font>
 
 </body>
 </html>
 
 <!--
 
-file:///C:/Users/alect/Desktop/alectramell.github.io/index.html?wdata=<html>
+file:///C:/Users/alect/Desktop/alectramell.github.io/index.html?custom=<html>
 <head>
 <script>
 function updateData() {
 
   let myURL = new URL(window.location.href);
-  let xout = myURL.searchParams.get('wdata');
-  console.log(xout);
+  let xout = myURL.searchParams.get('custom');
 
-  document.open();
-  document.write(xout);
-  document.close();
+  if (xout) {
+
+    let myURL = new URL(window.location.href);
+    let xout = myURL.searchParams.get('custom');
+    console.log(xout);
+
+    document.open();
+    document.write(xout);
+    document.close();
+
+  } else {
+    console.log('null');
+  }
 
 }
 </script>
