@@ -12,9 +12,10 @@ function updateData() {
     let xout = myURL.searchParams.get('custom');
     console.log(xout);
 
-    document.open();
-    document.write(xout);
-    document.close();
+    document.getElementById('title').innerHTML = xout;
+    //document.open();
+    //document.write(xout);
+    //document.close();
 
   } else {
     console.log('null');
@@ -32,45 +33,29 @@ body, html {
   background-size:cover;
   overflow:hidden;
 }
+
+@font-face {
+
+  font-family:strasua;
+  src: url('fonts/strasua.ttf');
+}
+
+#title {
+
+  color:#ffffff;
+  font-family:strasua;
+  font-weight:regular;
+  font-size:32px;
+}
 </style>
 
-<font size='5' face='Arial' color='#ffffff'>Tramell Software Development</font>
+<font id='title'>Tramell Software Development</font>
 
 </body>
 </html>
 
 <!--
 
-file:///C:/Users/alect/Desktop/alectramell.github.io/index.html?custom=<html>
-<head>
-<script>
-function updateData() {
-
-  let myURL = new URL(window.location.href);
-  let xout = myURL.searchParams.get('custom');
-
-  if (xout) {
-
-    let myURL = new URL(window.location.href);
-    let xout = myURL.searchParams.get('custom');
-    console.log(xout);
-
-    document.open();
-    document.write(xout);
-    document.close();
-
-  } else {
-    console.log('null');
-  }
-
-}
-</script>
-</head>
-<body onload='updateData();'>
-
-<font size='5' face='Arial'>Tramell Software Development</font>
-
-</body>
-</html>
+https://alectramell.github.io/index.html?custom=Hello World!
 
 -->
