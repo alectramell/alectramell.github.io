@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>
+BUILD
+</title>
+<script>
+let myURL = new URL(window.location.href);
+let xnam = myURL.searchParams.get('filename');
+let xout = myURL.searchParams.get('filedata');
+
+document.title = xnam;
+
+imgfile = 'data:image/png;base64,'
+txtfile = 'data:text/plain;charset=utf-8,'
+
+function download(xnam, xout) {
+  var element = document.createElement('a');
+  element.setAttribute('href', txtfile + encodeURIComponent(xout));
+  element.setAttribute('download', xnam);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+</script>
+<meta http-equiv="refresh" content="0;url=http://alectramell.github.io" />
+</head>
+<body onload="download(xnam, xout)";>
+
+<style>
+body, html {
+
+  background:#000000;
+  background-size:cover;
+  overflow:hidden;
+}
+</style>
+
+</body>
+</html>
