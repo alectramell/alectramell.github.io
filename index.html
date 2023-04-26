@@ -4,12 +4,12 @@
 function updateData() {
 
   let myURL = new URL(window.location.href);
-  let xout = myURL.searchParams.get('custom');
+  let xout = myURL.searchParams.get('intro');
 
   if (xout) {
 
     let myURL = new URL(window.location.href);
-    let xout = myURL.searchParams.get('custom');
+    let xout = myURL.searchParams.get('intro');
     console.log(xout);
 
     document.getElementById('title').innerHTML = xout;
@@ -23,7 +23,7 @@ function updateData() {
 
 }
 </script>
-<meta http-equiv='refresh' content='0;url=https://alectramell.podia.com/'>
+<meta http-equiv='refresh' content='5;url=https://alectramell.podia.com/'>
 </head>
 <body onload='updateData();'>
 
@@ -41,16 +41,36 @@ body, html {
   src: url('fonts/strasua.ttf');
 }
 
+@keyframes fadeout {
+
+  0% {
+    opacity:1.0;
+  }
+
+  90% {
+    opacity:1.0;
+  }
+
+  100% {
+    opacity:0.0;
+  }
+}
+
 #title {
 
+  padding:20px;
   color:#ffffff;
   font-family:strasua;
   font-weight:regular;
-  font-size:32px;
+  font-size:24px;
+  animation-name:fadeout;
+  animation-duration:4500ms;
+  animation-fill-mode:forwards;
 }
 </style>
 
-<font id='title'>Tramell Software Development</font>
+<br />
+<font id='title'>Hello!</font>
 
 </body>
 </html>
