@@ -1,0 +1,70 @@
+<html>
+<head>
+<script>
+function updateData() {
+
+  let myURL = new URL(window.location.href);
+  let xout = myURL.searchParams.get('title');
+
+  if (xout) {
+
+    let myURL = new URL(window.location.href);
+    let xout = myURL.searchParams.get('title');
+    console.log(xout);
+
+    document.getElementById('title').innerHTML = xout;
+    //document.open();
+    //document.write(xout);
+    //document.close();
+
+  } else {
+    console.log('null');
+  }
+
+}
+</script>
+</head>
+<body onload='updateData();'>
+
+<style>
+body, html {
+
+  background-color:#000000;
+  background-size:cover;
+  overflow:hidden;
+}
+
+@font-face {
+
+  font-family:eras;
+  src: url('fonts/Eras.woff');
+
+}
+
+#header {
+
+  padding:40px 20px;
+  width:90%;
+  height:20%;
+}
+
+#title {
+
+  color:#ffffff;
+  font-family:eras;
+  font-size:24px;
+}
+</style>
+
+<div id='header' align='center'>
+<font id='title'>L I B R A R Y</font>
+</div>
+
+</body>
+</html>
+
+<!--
+
+https://alectramell.github.io/library/?title=Hello World!
+
+-->
