@@ -37,14 +37,18 @@ body, html {
 
 @font-face {
 
-  font-family:Eras;
-  src: url('fonts/ErasBold.ttf');
+  font-family:eras;
+  src: url('fonts/Eras.woff');
 
 }
 
 @keyframes fadeout {
 
   0% {
+    opacity:0.0;
+  }
+
+  50% {
     opacity:1.0;
   }
 
@@ -53,7 +57,7 @@ body, html {
   }
 
   100% {
-    opacity:0.0;
+    opacity:0.5;
   }
 }
 
@@ -61,8 +65,7 @@ body, html {
 
   padding:20px;
   color:#ffffff;
-  font-family:Eras;
-  font-weight:regular;
+  font-family:eras;
   font-size:24px;
   animation-name:fadeout;
   animation-duration:4500ms;
@@ -71,7 +74,7 @@ body, html {
 </style>
 
 <br />
-<font id='title'>Tramell Software Development</font>
+<font id='title'>L O A D I N G</font>
 
 </body>
 </html>
