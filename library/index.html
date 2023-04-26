@@ -41,6 +41,17 @@ body, html {
 
 }
 
+@keyframes fadein {
+
+  0% {
+    opacity:0.0;
+  }
+
+  100% {
+    opacity:0.75;
+  }
+}
+
 #header {
 
   padding:40px 20px;
@@ -54,6 +65,9 @@ body, html {
   font-family:eras;
   font-size:24px;
   opacity:0.75;
+  animation-name:fadein;
+  animation-duration:1000ms;
+  animation-fill-mode:forwards;
 }
 </style>
 
