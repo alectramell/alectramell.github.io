@@ -1,0 +1,5 @@
+   [!] hello!
+   [>] lol this is awesome..
+   [?] wtf???
+   [>] ok
+   [>] ok..
