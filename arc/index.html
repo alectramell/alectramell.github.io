@@ -10,8 +10,11 @@ function updateData() {
   let xhash = myURL.searchParams.get('userid');
 
   var checkuser = new File('https://alectramell.gitub.io/arc/data/'+xhash);
+  var userconfirm = checkuser.exists();
 
-  if (checkuser.exists()) {
+  write('https://alectramell.gitub.io/arc/data/'+xhash);
+
+  if (userconfirm = true) {
     alert('User Exists');
   } else {
     alert('User Does Not Exist');
