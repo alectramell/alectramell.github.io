@@ -1,18 +1,6 @@
 <html>
 <head>
 <script>
-function fileexists(urlToFile) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('HEAD', urlToFile, false);
-    xhr.send();
-     
-    if (xhr.status == "404") {
-        return false;
-    } else {
-        return true;
-    }
-}
-
 function updateData() {
 
   let myURL = new URL(window.location.href);
