@@ -7,12 +7,12 @@ function updateData() {
   let xout = myURL.searchParams.get('title');
   let xusr = myURL.searchParams.get('username');
   let xmsg = myURL.searchParams.get('statustext');
-  let allowed = myURL.searchParams.get('allow');
+  let xtag = myURL.searchParams.get('allow');
 
-  if (allowed = 'true') {
-    alert('User Confirmed');
+  if (allow) {
+    alert('confirmed')
   } else {
-    alert('User Not Confirmed');
+    alert('unconfirmed')
   }
 
   if (xout) {
