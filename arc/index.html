@@ -1,0 +1,163 @@
+<html>
+<head>
+<script>
+function updateData() {
+
+  let myURL = new URL(window.location.href);
+  let xout = myURL.searchParams.get('title');
+  let xusr = myURL.searchParams.get('username');
+  let xmsg = myURL.searchParams.get('statustext');
+
+  if (xout) {
+
+    let myURL = new URL(window.location.href);
+    let xout = myURL.searchParams.get('title');
+    console.log(xout);
+    document.getElementById('title').innerHTML = xout;
+    document.getElementById('title').style.letterSpacing = '10px';
+    document.getElementById('title').style.fontWeight = 'regular';
+
+  }
+
+  if (xusr) {
+
+    let myURL = new URL(window.location.href);
+    let xusr = myURL.searchParams.get('username');
+    console.log(xusr);
+    document.getElementById('username').innerHTML = xusr;
+    document.getElementById('username').style.letterSpacing = '1px';
+    document.getElementById('username').style.fontWeight = 'bold';
+  }
+
+  if (xmsg) {
+
+    let myURL = new URL(window.location.href);
+    let xmsg = myURL.searchParams.get('statustext');
+    console.log(xmsg);
+    document.getElementById('statustext').innerHTML = xmsg;
+    document.getElementById('statustext').style.color = '#a0ff24';
+    document.getElementById('statustext').style.fontSize = '32px';
+    document.getElementById('statustext').style.fontWeight = 'regular';
+    document.getElementById('statustext').style.letterSpacing = '5px';
+
+  } else {
+    console.log('null');
+  }
+
+}
+</script>
+</head>
+<body onload='updateData();'>
+
+<style>
+body, html {
+
+  background-color:#000000;
+  background-size:cover;
+  overflow:hidden;
+}
+
+@font-face {
+
+  font-family:eras;
+  src: url('https://alectramell.github.io/fonts/Eras.woff');
+
+}
+
+@keyframes fadein {
+
+  0% {
+    opacity:0.0;
+  }
+
+  100% {
+    opacity:0.75;
+  }
+}
+
+#header {
+
+  padding:40px 20px;
+  width:90%;
+  height:10%;
+}
+
+#usernameBOX {
+
+  position:fixed;
+  padding:20px 20px;
+}
+
+#statusBOX {
+
+  left:10%;
+  float:left;
+  width:33%;
+  height:50%;
+  background-color:#000000;
+  position:relative;
+  padding:0px 20%;
+  
+}
+
+#title {
+
+  position:static;
+  color:#ffffff;
+  font-family:eras;
+  font-size:24px;
+  opacity:0.75;
+  animation-name:fadein;
+  animation-duration:1000ms;
+  animation-fill-mode:forwards;
+}
+
+#username {
+
+  float:left;
+  color:#ffffff;
+  font-family:eras;
+  font-size:16px;
+  font-weight:bold;
+  opacity:0.75;
+  animation-name:fadein;
+  animation-duration:1000ms;
+  animation-fill-mode:forwards;
+}
+
+#statustext {
+
+  float:middle;
+  position:relative;
+  font-family:eras;
+  font-size:22px;
+  font-weight:regular;
+  opacity:0.75;
+  animation-name:fadein;
+  animation-duration:2000ms;
+  animation-fill-mode:forwards;
+}
+</style>
+
+<div id='usernameBOX'>
+<font id='username'>GUEST</font>
+</div>
+
+<div id='header' align='center'>
+<font id='title'>A R C</font>
+</div>
+
+<center>
+<div id='statusBOX'>
+<font id='statustext' style='color:#6c6c6c;font-size:16px;'>N O  -  S T A T U S  -  U P D A T E S</font>
+</div>
+</center>
+
+</body>
+</html>
+
+<!--
+
+https://alectramell.github.io/arc/?title=ARC - DASHBOARD&username=GUEST&statustext=HELLO!
+
+-->
