@@ -1,12 +1,35 @@
 <html>
 <head>
 <script>
+var result = doesFileExist("https://www.kirupa.com/ssi/newDesign/kirupaLogo_large.png");
+
+function fileexists(urlToFile) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('HEAD', urlToFile, false);
+    xhr.send();
+     
+    if (xhr.status == "404") {
+        return false;
+    } else {
+        return true;
+    }
+}
+
 function updateData() {
 
   let myURL = new URL(window.location.href);
   let xout = myURL.searchParams.get('title');
   let xusr = myURL.searchParams.get('username');
   let xmsg = myURL.searchParams.get('statustext');
+  let xhash = myURL.searchParams.get('userid');
+
+  var checkuser = fileexists('https://alectramell.gitub.io/arc/data/'+xhash);
+
+  if (result == true) {
+    alert('User Exists');
+  } else {
+    alert('User Does Not Exist');
+  }
 
   if (xout) {
 
