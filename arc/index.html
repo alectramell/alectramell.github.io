@@ -21,9 +21,9 @@ function updateData() {
   let xmsg = myURL.searchParams.get('statustext');
   let xhash = myURL.searchParams.get('userid');
 
-  checkuser = ('https://alectramell.gitub.io/arc/data/'+xhash);
+  var checkuser = new File('https://alectramell.gitub.io/arc/data/'+xhash);
 
-  if (checkuser == true) {
+  if (checkuser.exists()) {
     alert('User Exists');
   } else {
     alert('User Does Not Exist');
