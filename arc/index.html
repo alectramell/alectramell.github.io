@@ -10,9 +10,10 @@ function updateData() {
   let xtag = myURL.searchParams.get('allow');
 
   if (xtag) {
-    alert('confirmed');
+    console.log('confirmed');
   } else {
-    alert('unconfirmed');
+    console.log('unconfirmed');
+    window.location.replace("http://alectramell.github.io/library");
   }
 
   if (xout) {
