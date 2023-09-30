@@ -8,17 +8,17 @@ function updateData() {
 
   let myURL = new URL(window.location.href);
   let xout = myURL.searchParams.get('title');
-  let xurl = myURL.searchParams.get('url');
+  let xurl = myURL.searchParams.get('app');
 
   if (xout) {
 
     let myURL = new URL(window.location.href);
     let xout = myURL.searchParams.get('title');
-    let xurl = myURL.searchParams.get('url');
+    let xurl = myURL.searchParams.get('app');
     console.log(xout);
 
     document.getElementById('title').innerHTML = xout;
-    document.getElementById("url").src = xurl+'.html';
+    document.getElementById("app").src = xurl+'.html';
     //document.open();
     //document.write(xout);
     //document.close();
@@ -95,7 +95,7 @@ hr {
 <font id='title'>archives</font>
 </div>
 
-<iframe id='url' src=''></iframe>
+<iframe id='app' src=''></iframe>
 
 </body>
 </html>
