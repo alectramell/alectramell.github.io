@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>
+<title id='maintitle'>
 Tramell Software (AGY)
 </title>
 <script>
@@ -19,6 +19,7 @@ function updateData() {
 
     document.getElementById('title').innerHTML = xout;
     document.getElementById("app").src = xurl+'.html';
+    document.getElementById("maintitle").innerHTML = xout;
     //document.open();
     //document.write(xout);
     //document.close();
