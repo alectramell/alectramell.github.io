@@ -1,31 +1,63 @@
 <!DOCTYPE html>
 <html>
-<body bgcolor="#000000"
-text="#ffffff"
-link="#ffffff"
-alink="#ffffff"
-vlink="#ffffff">
+<head>
+<title>
+ToolBox API
+</title>
+</head>
+<body>
 
-<h1>ToolBox v0.0.1</h1>
-<h2>by Tramell Software Development (r)</h2>
+<style>
+body, html {
+	background-color:#000000;
+	background-size:cover;
+	overflow:hidden;
+}
 
-<b>ABOUT..</b>
+#label {
+	color:#ffffff;
+	font-family:Arial;
+	font-weight:bold;
+	letter-spacing:normal;
+	opacity:1.0;
+}
+
+#text {
+	color:#ffffff;
+	font-family:Arial;
+	letter-spacing:normal;
+	opacity:1.0;
+}
+
+#codetext {
+	padding:20px;
+	color:#ffffff;
+	font-family:Consolas;
+	letter-spacing:normal;
+	opacity:0.8;
+}
+</style>
+
+<h1 id='label'>ToolBox v0.0.1</h1>
+<h2 id='label'>by Tramell Software Development (r)</h2>
+
+<b id='label'>ABOUT..</b>
 <br />
-	ToolBox is a compilation of Python tools for development progression. A list of internal functions can be found <a href="https://alectramell.github.io/library/api/lib/toolbox/README.md#usage">here</a>
+<font id="text">ToolBox is a compilation of Python tools for development progression. A list of internal functions can be found <a href="https://alectramell.github.io/library/api/lib/toolbox/index.html#usage">here</a></font>
 
-<b>REQUIREMENTS..</b>
+<b id='label'>REQUIREMENTS..</b>
 <br />
-	* Python 3
-	* Python-Pip3
+<font id='codetext'>Python 3</font>
+<font id='codetext'>Python-Pip3</font>
 
-<b>INSTALLATION..</b>
+<b id='label'>INSTALLATION..</b>
 <br />
-	`pip install -e toolbox`
+<font id='codetext'>pip install -e toolbox</font>
 
 <b name="usage">USAGE (Python3)..</b>
 <br />
-	`>> import toolbox`
-	`>> toolbox.clear`
+<font id='codetext'>>> import toolbox</font>
+<font id='codetext'>>> toolbox.clear()</font>
 
 </body>
 </html>
