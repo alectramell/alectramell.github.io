@@ -1,24 +1,31 @@
-<body style='background-color:#4c4c4c;color:#ffffff;'>
+<!DOCTYPE html>
+<html>
+<body bgcolor="#000000"
+text="#ffffff"
+link="#ffffff"
+alink="#ffffff"
+vlink="#ffffff">
 
-# ToolBox v0.0.1
-## <sub>by<sub/> Tramell Software Development (r)
+<h1>ToolBox v0.0.1</h1>
+<h2>by Tramell Software Development (r)</h2>
 
-**ABOUT..**
+<b>ABOUT..</b>
 <br />
-	ToolBox is a compilation of Python tools for development progression. A list of internal functions can be found [here](https://alectramell.github.io/library/api/lib/toolbox/README.md#usage).
+	ToolBox is a compilation of Python tools for development progression. A list of internal functions can be found <a href="https://alectramell.github.io/library/api/lib/toolbox/README.md#usage">here</a>
 
-**REQUIREMENTS..**
+<b>REQUIREMENTS..</b>
 <br />
 	* Python 3
 	* Python-Pip3
 
-**INSTALLATION..**
+<b>INSTALLATION..</b>
 <br />
 	`pip install -e toolbox`
 
-<a name="usage"></a>
-**USAGE (Python3)..**
+<b name="usage">USAGE (Python3)..</b>
 <br />
 	`>> import toolbox`
-	`>> toolbox.clear
+	`>> toolbox.clear`
+
 </body>
+</html>
