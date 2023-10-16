@@ -1,3 +1,5 @@
+<div style='background-color:#4c4c4c;color:#ffffff;'>
+
 # ToolBox v0.0.1
 ## <sub>by<sub/> Tramell Software Development (r)
 
@@ -14,4 +16,5 @@
 <a name="usage"></a>
 **Usage (Python3)..**
 	`>> import toolbox`
-	`>> toolbox.clear()`
+	`>> toolbox.clear
+</div>
