@@ -11,13 +11,31 @@ ToolBox | Python3 API
 body, html {
 	background-color:#000000;
 	background-size:cover;
-	overflow:hidden;
+}
+
+#titletext {
+	color:#ffffff;
+	font-family:Arial;
+	font-size:32px;
+	font-weight:bold;
+	letter-spacing:normal;
+	opacity:1.0;
+}
+
+#subtitletext {
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	letter-spacing:normal;
+	opacity:1.0;
 }
 
 #label {
 	color:#ffffff;
 	font-family:Arial;
-	font-weight:bold;
+	font-size:20px;
+	font-weight:normal;
 	letter-spacing:normal;
 	opacity:1.0;
 }
@@ -25,47 +43,78 @@ body, html {
 #text {
 	color:#ffffff;
 	font-family:Arial;
+	font-size:17px;
+	letter-spacing:normal;
+	opacity:0.9;
+}
+
+#codetext {
+	padding:5px 20px;
+	color:#c4c4c4;
+	font-size:20px;
+	font-family:Courier;
 	letter-spacing:normal;
 	opacity:1.0;
 }
 
-#codetext {
-	padding:20px;
-	color:#ffffff;
-	font-family:Consolas;
-	letter-spacing:normal;
-	opacity:0.8;
+#par {
+	width:60%;
+	padding:5px 20px;
+}
+
+#southdash {
+	padding:50px 0px;
 }
 </style>
 
-<h1 id='label'>ToolBox v0.0.1</h1>
-<h2 id='label'>by Tramell Software Development (r)</h2>
-
-<b id='label'>ABOUT..</b>
+<font id='titletext'>ToolBox v0.0.1</font>
 <br />
+<font id='subtitletext'>Tramell Software Development (r)</font>
+
+<br />
+<br />
+
+<b id='label'>ABOUT</b>
+<br />
+<br />
+<div id='par'>
 <font id="text">ToolBox is a compilation of Python tools for development progression. A list of internal functions can be found in the usage sextion.</font>
+</div>
 
 <br />
 
-<b id='label'>REQUIREMENTS..</b>
+<b id='label'>REQUIREMENTS</b>
 <br />
-<li><font id='codetext'>Python 3</font></li>
-<li><font id='codetext'>Python-Pip3</font></li>
+<br />
+<font id='codetext'>Python 3</font>
+<br />
+<font id='codetext'>Python-Pip3</font>
+<br />
+<font id='codetext'>Windows 10 (or higher)</font>
 
 <br />
+<br />
 
-<b id='label'>INSTALLATION..</b>
+<b id='label'>INSTALLATION (console, pip)</b>
+<br />
 <br />
 <font id='codetext'>pip install -e toolbox</font>
 
-</br>
+<br />
+<br />
 
-<b name="usage">USAGE (Python3)..</b>
+<b id='label'>USAGE (python)</b>
+<br />
 <br />
 <font id='codetext'>>> import toolbox</font>
+<br />
 <font id='codetext'>>> toolbox.clear()</font>
 
 <br />
+<br />
+
+<div id='southdash'>
+</div>
 
 </body>
 </html>
