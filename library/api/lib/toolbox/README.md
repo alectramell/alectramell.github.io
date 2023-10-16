@@ -1,4 +1,4 @@
-<div style='background-color:#4c4c4c;color:#ffffff;'>
+<body style='background-color:#4c4c4c;color:#ffffff;'>
 
 # ToolBox v0.0.1
 ## <sub>by<sub/> Tramell Software Development (r)
@@ -21,4 +21,4 @@
 <br />
 	`>> import toolbox`
 	`>> toolbox.clear
-</div>
+</body>
