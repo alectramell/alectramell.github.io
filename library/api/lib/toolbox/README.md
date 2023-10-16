@@ -3,18 +3,22 @@
 # ToolBox v0.0.1
 ## <sub>by<sub/> Tramell Software Development (r)
 
-**About..**
+**ABOUT..**
+<br />
 	ToolBox is a compilation of Python tools for development progression. A list of internal functions can be found [here](https://alectramell.github.io/library/api/lib/toolbox/README.md#usage).
 
-**Requirements..**
+**REQUIREMENTS..**
+<br />
 	* Python 3
 	* Python-Pip3
 
-**Installation..**
+**INSTALLATION..**
+<br />
 	`pip install -e toolbox`
 
 <a name="usage"></a>
-**Usage (Python3)..**
+**USAGE (Python3)..**
+<br />
 	`>> import toolbox`
 	`>> toolbox.clear
 </div>
