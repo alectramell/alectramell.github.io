@@ -48,16 +48,6 @@ hr {
 
 }
 
-@keyframes fadein {
-  0% {
-    opacity:0.0;
-  }
-
-  100% {
-    opacity:1.0;
-  }
-}
-
 #header {
   padding:30px 15px;
   width:90%;
@@ -68,79 +58,67 @@ hr {
   position:relative;
   left:15px;
   color:#ffffff;
-  font-family:Arial;
-  font-size:18px;
+  font-family:eras;
+  font-size:25px;
   letter-spacing:10px;
   opacity:1.0;
-  animation-name:fadein;
-  animation-duration:1000ms;
-  animation-fill-mode:forwards;
 }
 
 #xtype {
   position:relative;
   left:15px;
   color:#ffffff;
-  font-family:Arial;
-  font-size:18px;
+  font-family:eras;
+  font-size:22px;
   letter-spacing:10px;
-  opacity:1.0;
-  animation-name:fadein;
-  animation-duration:1000ms;
-  animation-fill-mode:forwards;
+  opacity:0.8;
 }
 
 #xtime {
   position:relative;
   left:15px;
   color:#ffffff;
-  font-family:Arial;
-  font-size:18px;
+  font-family:eras;
+  font-size:20px;
   letter-spacing:10px;
   opacity:1.0;
-  animation-name:fadein;
-  animation-duration:1000ms;
-  animation-fill-mode:forwards;
 }
 
 #xdate {
   position:relative;
   left:15px;
   color:#ffffff;
-  font-family:Arial;
-  font-size:18px;
+  font-family:eras;
+  font-size:20px;
   letter-spacing:10px;
   opacity:1.0;
-  animation-name:fadein;
-  animation-duration:1000ms;
-  animation-fill-mode:forwards;
 }
 
 #xcost {
   position:relative;
   left:15px;
   color:#ffffff;
-  font-family:Arial;
-  font-size:18px;
+  font-family:eras;
+  font-size:20px;
   letter-spacing:10px;
   opacity:1.0;
-  animation-name:fadein;
-  animation-duration:1000ms;
-  animation-fill-mode:forwards;
 }
 </style>
 
-<!-- div id='header' align='center' -->
+<div id='header' align='center'>
 <font id='xname'>...</font>
 <br />
 <font id='xtype'>...</font>
 <br />
+<font id='taglable'>TIME: </font>
 <font id='xtime'>...</font>
 <br />
+<font id='taglable'>DAY: </font>
 <font id='xdate'>...</font>
 <br />
+<font id='taglable'>COST: </font>
 <font id='xcost'>...</font>
-<!-- /div -->
+</div>
 
 </body>
 </html>
