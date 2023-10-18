@@ -1,7 +1,7 @@
 <html>
 <head>
 <title id='maintitle'>
-Events
+EVENTS
 </title>
 <script>
 function updateData() {
@@ -13,28 +13,11 @@ function updateData() {
   let xdate = myURL.searchParams.get('date');
   let xcost = myURL.searchParams.get('cost');
 
-  if (xname) {
-
-    let myURL = new URL(window.location.href);
-    let xname = myURL.searchParams.get('name');
-    let xtype = myURL.searchParams.get('type');
-    let xtime = myURL.searchParams.get('time');
-    let xdate = myURL.searchParams.get('date');
-    let xcost = myURL.searchParams.get('cost');
-
-    document.getElementById('name').innerHTML = xname;
-    document.getElementById('type').innerHTML = xtype;
-    document.getElementById('time').innerHTML = xtime;
-    document.getElementById('date').innerHTML = xdate;
-    document.getElementById('cost').innerHTML = xcost;
-
-  } else {
-    console.log('null');
-  }
-
-  window.resizeTo(window.screen.availWidth/2+100,window.screen.availHeight/2+200);
-  window.moveTo(window.screen.availWidth/4-50,window.screen.availHeight/4-110);
-
+  document.getElementById('name').innerHTML = xname;
+  document.getElementById('type').innerHTML = xtype;
+  document.getElementById('time').innerHTML = xtime;
+  document.getElementById('date').innerHTML = xdate;
+  document.getElementById('cost').innerHTML = xcost;
 }
 </script>
 </head>
