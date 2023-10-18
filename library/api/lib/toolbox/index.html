@@ -15,6 +15,12 @@ function download(url) {
 	a.download = url
 	a.click()
 }
+
+function copyLINK(url) {
+	var targetlink = url;
+	navigator.clipboard.writeText('pip install '+targetlink);
+	alert("Command was Copied to Clipboard");
+}
 </script>
 
 <style>
@@ -67,6 +73,18 @@ body, html {
 	display:inline-block;
 	text-align:left;
 	opacity:1.0;
+}
+
+#codetextCBL {
+	padding:5px 20px;
+	color:#c4c4c4;
+	font-size:20px;
+	font-family:Courier;
+	letter-spacing:normal;
+	display:inline-block;
+	text-align:left;
+	opacity:1.0;
+	cursor:pointer;
 }
 
 #par {
@@ -162,7 +180,9 @@ body, html {
 <b id='label'>INSTALLATION (console, pip)</b>
 <br />
 <br />
-<font id='codetext'>pip install https://alectramell.github.io/library/api/lib/toolbox/files/toolbox-0.0.1.tar.gz</font>
+<div onclick='copyLINK("https://alectramell.github.io/library/api/lib/toolbox/files/toolbox-0.0.1.tar.gz");'>
+<font id='codetextCBL'>pip install https://alectramell.github.io/library/api/lib/toolbox/files/toolbox-0.0.1.tar.gz</font>
+</div>
 
 <br />
 <br />
