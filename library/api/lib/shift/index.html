@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base target="_parent">
+<title>
+SHIFT | Python3 API
+</title>
+</head>
+<body>
+
+<script>
+function download(url) {
+	const a = document.createElement('a')
+	a.href = url
+	a.download = url
+	a.click()
+}
+
+function copyLINK(url) {
+	var targetlink = url;
+	navigator.clipboard.writeText('pip install '+targetlink);
+	alert("Command was Copied to Clipboard");
+}
+</script>
+
+<style>
+body, html {
+	background-color:#000000;
+	background-size:cover;
+}
+
+#titletext {
+	color:#ffffff;
+	font-family:Arial;
+	font-size:32px;
+	font-weight:bold;
+	letter-spacing:normal;
+	opacity:1.0;
+}
+
+#subtitletext {
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	letter-spacing:normal;
+	opacity:1.0;
+}
+
+#label {
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:normal;
+	letter-spacing:normal;
+	opacity:1.0;
+}
+
+#text {
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	letter-spacing:normal;
+	opacity:0.9;
+}
+
+#codetext {
+	padding:5px 20px;
+	color:#c4c4c4;
+	font-size:20px;
+	font-family:Courier;
+	letter-spacing:normal;
+	display:inline-block;
+	text-align:left;
+	opacity:1.0;
+}
+
+#codetextCBL {
+	padding:5px 20px;
+	color:#c4c4c4;
+	font-size:20px;
+	font-family:Courier;
+	letter-spacing:normal;
+	display:inline-block;
+	text-align:left;
+	opacity:1.0;
+	cursor:pointer;
+}
+
+#par {
+	width:60%;
+	padding:5px 20px;
+}
+
+#southdash {
+	padding:50px 0px;
+}
+
+#pyemb {
+	position:fixed;
+	top:7%;
+	left:85%;
+	width:72px;
+	height:72px;
+	opacity:0.9;
+	cursor:arrow;
+}
+
+#pyemb:hover {
+	position:fixed;
+	top:7%;
+	left:85%;
+	width:72px;
+	height:72px;
+	opacity:1.0;
+	cursor:pointer;
+}
+
+#backlink {
+	position:fixed;
+	padding-top:5px;
+	padding-left:40%;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	letter-spacing:normal;
+	text-decoration:none;
+	opacity:0.75;
+}
+
+#backlink:hover {
+	position:fixed;
+	padding-top:5px;
+	padding-left:40%;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	letter-spacing:normal;
+	text-decoration:none;
+	opacity:1.0;
+}
+</style>
+
+<a id='backlink' href='https://alectramell.github.io'>HOME</a>
+
+<br />
+<br />
+
+<font id='titletext'>SHIFT v0.0.1</font>
+<img id='pyemb' src='http://alectramell.github.io/library/api/lib/img/pyicon.png' title='Python Homepage' onclick='window.open("https://www.python.org");'>
+<br />
+<font id='subtitletext'>Tramell Software Development (r)</font>
+
+<br />
+<br />
+
+<b id='label'>ABOUT</b>
+<br />
+<br />
+<div id='par'>
+<font id="text">SHIFT is a Python Module for cyber-security development. This module allows the developer to encrypt text (or important data) using a ceasar-cipher method, and, decrypt the same data internally using the key from the original encryption method (assuming the developer keeps note of the key).</font>
+</div>
+
+<br />
+
+<b id='label'>REQUIREMENTS</b>
+<br />
+<br />
+<font id='codetext'>Python 3</font>
+<br />
+<font id='codetext'>Python-Pip3</font>
+<br />
+<font id='codetext'>Windows 10 (or higher)</font>
+
+<br />
+<br />
+
+<b id='label'>INSTALLATION (console, pip)</b>
+<br />
+<br />
+<div onclick='copyLINK("https://alectramell.github.io/library/api/lib/shift/files/shift-0.0.1.tar.gz");'>
+<font id='codetextCBL'>pip install https://alectramell.github.io/library/api/lib/shift/files/shift-0.0.1.tar.gz</font>
+</div>
+
+<br />
+<br />
+
+<b id='label'>IMPORT (python)</b>
+<br />
+<br />
+<font id='codetext'>>> import shift</font>
+
+<br />
+<br />
+
+<b id='label'>USAGE (python)</b>
+<br />
+<br />
+<font id='codetext'>>> shift.help()</font>
+
+<br />
+<br />
+
+<div id='southdash'>
+</div>
+
+</body>
+</html>
