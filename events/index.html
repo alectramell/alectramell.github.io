@@ -20,6 +20,12 @@ function updateData() {
   document.getElementById('xcost').innerHTML = xcost;
   document.getElementById('maintitle').innerHTML = xname;
 }
+
+function cap(xstr) {
+  const str = xstr;
+  let result = str.charAt(0).toUpperCase()+str.slice(1);
+  return result;
+}
 </script>
 <meta http-equiv="refresh" content="10">
 </head>
@@ -70,6 +76,7 @@ hr {
   font-size:35px;
   font-weight:bold;
   letter-spacing:10px;
+  text-transform:uppercase;
   opacity:1.0;
 }
 
@@ -80,6 +87,7 @@ hr {
   font-family:eras;
   font-size:22px;
   letter-spacing:10px;
+  text-transform:lowercase;
   opacity:0.8;
 }
 
