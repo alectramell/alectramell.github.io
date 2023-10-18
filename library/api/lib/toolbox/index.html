@@ -8,6 +8,17 @@ ToolBox | Python3 API
 </head>
 <body>
 
+<script>
+function download(url) {
+	const a = document.createElement('a')
+	a.href = url
+	a.download = url.split('/').pop()
+	document.body.appendChild(a)
+	a.click()
+	document.body.removeChild(a)
+}
+</script>
+
 <style>
 body, html {
 	background-color:#000000;
@@ -120,7 +131,7 @@ body, html {
 <br />
 
 <font id='titletext'>ToolBox v0.0.1</font>
-<img id='pyemb' src='http://alectramell.github.io/library/api/lib/img/pyicon.png' title='DOWNLOAD' onclick='window.open("http://alectramell.github.io/library/api/lib/toolbox/files/toolbox-0.0.1.tar.gz");'>
+<img id='pyemb' src='http://alectramell.github.io/library/api/lib/img/pyicon.png' title='DOWNLOAD' onclick='download("http://alectramell.github.io/library/api/lib/toolbox/files/toolbox-0.0.1.tar.gz");'>
 <br />
 <font id='subtitletext'>Tramell Software Development (r)</font>
 
