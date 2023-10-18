@@ -1,0 +1,162 @@
+<html>
+<head>
+<title id='maintitle'>
+Events
+</title>
+<script>
+function updateData() {
+
+  let myURL = new URL(window.location.href);
+  let xname = myURL.searchParams.get('name');
+  let xtype = myURL.searchParams.get('type');
+  let xtime = myURL.searchParams.get('time');
+  let xdate = myURL.searchParams.get('date');
+  let xcost = myURL.searchParams.get('cost');
+
+  if (xname) {
+
+    let myURL = new URL(window.location.href);
+    let xname = myURL.searchParams.get('name');
+    let xtype = myURL.searchParams.get('type');
+    let xtime = myURL.searchParams.get('time');
+    let xdate = myURL.searchParams.get('date');
+    let xcost = myURL.searchParams.get('cost');
+
+    document.getElementById('name').innerHTML = xname;
+    document.getElementById('type').innerHTML = xtype;
+    document.getElementById('time').innerHTML = xtime;
+    document.getElementById('date').innerHTML = xdate;
+    document.getElementById('cost').innerHTML = xcost;
+
+  } else {
+    console.log('null');
+  }
+
+  window.resizeTo(window.screen.availWidth/2+100,window.screen.availHeight/2+200);
+  window.moveTo(window.screen.availWidth/4-50,window.screen.availHeight/4-110);
+
+}
+</script>
+</head>
+<body onload='updateData();'
+link='#000000'
+alink='#000000'
+vlink='#000000'>
+
+<style>
+body, html {
+  background-color:#000000;
+  background-size:cover;
+  overflow:hidden;
+  cursor:none;
+}
+
+hr {
+  height:1px;
+  background-color:#4c4c4c;
+  border:none;
+  width:40%;
+}
+
+@font-face {
+  font-family:eras;
+  src: url('https://alectramell.github.io/fonts/Eras.woff');
+
+}
+
+@keyframes fadein {
+  0% {
+    opacity:0.0;
+  }
+
+  100% {
+    opacity:1.0;
+  }
+}
+
+#header {
+  padding:30px 15px;
+  width:90%;
+  height:0%;
+}
+
+#xname {
+  position:relative;
+  left:15px;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:18px;
+  letter-spacing:10px;
+  opacity:1.0;
+  animation-name:fadein;
+  animation-duration:1000ms;
+  animation-fill-mode:forwards;
+}
+
+#xtype {
+  position:relative;
+  left:15px;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:18px;
+  letter-spacing:10px;
+  opacity:1.0;
+  animation-name:fadein;
+  animation-duration:1000ms;
+  animation-fill-mode:forwards;
+}
+
+#xtime {
+  position:relative;
+  left:15px;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:18px;
+  letter-spacing:10px;
+  opacity:1.0;
+  animation-name:fadein;
+  animation-duration:1000ms;
+  animation-fill-mode:forwards;
+}
+
+#xdate {
+  position:relative;
+  left:15px;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:18px;
+  letter-spacing:10px;
+  opacity:1.0;
+  animation-name:fadein;
+  animation-duration:1000ms;
+  animation-fill-mode:forwards;
+}
+
+#xcost {
+  position:relative;
+  left:15px;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:18px;
+  letter-spacing:10px;
+  opacity:1.0;
+  animation-name:fadein;
+  animation-duration:1000ms;
+  animation-fill-mode:forwards;
+}
+</style>
+
+<!-- div id='header' align='center' -->
+<font id='xname'>...</font>
+<br />
+<font id='xtype'>...</font>
+<br />
+<font id='xtime'>...</font>
+<br />
+<font id='xdate'>...</font>
+<br />
+<font id='xcost'>...</font>
+<!-- /div -->
+
+</body>
+</html>
