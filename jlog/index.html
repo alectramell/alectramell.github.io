@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>
+JLOG v0.0.1
+</title>
+</head>
+<body bgcolor='#000000'
+text='#ffffff'
+link='#000000'
+alink='#000000'
+vlink='#000000'>
+
+<script type='text/javascript'>
+function clickable() {
+	xid = 'pip install https://alectramell.github.io/jlog/jlog-0.0.1.tar.gz';
+	console.log(xid);
+}
+
+function rerender() {
+	document.getElementById("status").innerHTML = 'pip install https://alectramell.github.io/jlog/jlog-0.0.1.tar.gz';
+	document.getElementById('status').style.opacity = '1.0';
+	document.getElementById('intro').style.opacity = '1.0';
+	document.getElementById('status').style.left = '90px';
+	document.addEventListener('mouseover', function(){document.getElementById('status').style.cursor = 'text';});
+	document.addEventListener('click', function(){clickable()});
+}
+
+setTimeout(rerender, 3000);
+</script>
+
+<font id='intro' style='position:absolute;top:25px;left:35px;font-family:Consolas;font-size:24px;font-weight:bold;color:#00aeff;opacity:0.0;cursor:not-allowed;'>run </font>
+
+<font id='status' style='position:absolute;top:25px;left:35px;font-family:Consolas;font-size:24px;font-weight:bold;color:#ffffff;opacity:0.5;cursor:wait;'>loading..</font>
+
+</body>
+</html>
