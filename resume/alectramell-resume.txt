@@ -1,0 +1,24 @@
+Name:
+	Alec Tramell
+
+Title (relative to position):
+	Software Development, Data Metrics, Computer Science
+
+Experience (included, not limited to):
+	HTML, PHP, JS, CSS, XML, Shell, Meta-Script, Batch, Java, C+, VBS, SQL, Python, ROR, Ruby, Perl
+
+Active Time:
+	2002-Current
+
+Contact Information:
+	Phone:
+		+1(801)839-9373
+	Email:
+		alectramell@gmail.com
+
+Additional (for reference):
+	DOB:
+		Feb, 4th, 1988
+
+Work Status:
+	Actively Searching
